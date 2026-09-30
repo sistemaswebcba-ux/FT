@@ -1,6 +1,0 @@
-D:\PROGRAMACION 2\AdminLte\Tabla\Tabla\bin\Debug\Tabla.dll
-D:\PROGRAMACION 2\AdminLte\Tabla\Tabla\bin\Debug\Tabla.pdb
-D:\PROGRAMACION 2\AdminLte\Tabla\Tabla\obj\Debug\Tabla.csproj.AssemblyReference.cache
-D:\PROGRAMACION 2\AdminLte\Tabla\Tabla\obj\Debug\Tabla.csproj.CoreCompileInputs.cache
-D:\PROGRAMACION 2\AdminLte\Tabla\Tabla\obj\Debug\Tabla.dll
-D:\PROGRAMACION 2\AdminLte\Tabla\Tabla\obj\Debug\Tabla.pdb
