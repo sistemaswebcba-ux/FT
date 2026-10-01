@@ -1,0 +1,10 @@
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\bin\Release\TablaDLL.dll
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\bin\Release\TablaDLL.pdb
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\bin\Release\TablaDLL.xml
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\bin\Release\Microsoft.ApplicationBlocks.Data.dll
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Release\TablaDLL.Resources.resources
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Release\TablaDLL.vbproj.GenerateResource.Cache
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Release\TablaDLL.dll
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Release\TablaDLL.xml
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Release\TablaDLL.pdb
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Release\TablaDLL.vbprojResolveAssemblyReference.cache

@@ -118,3 +118,6 @@ D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\roslyn\VBCSCompiler.exe.config
 D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.csproj.Up2Date
 D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.dll
 D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.pdb
+D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\TablaDLL.dll
+D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\TablaDLL.pdb
+D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\TablaDLL.xml

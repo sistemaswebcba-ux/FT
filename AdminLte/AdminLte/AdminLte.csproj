@@ -66,7 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="TablaDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\TablaDLL.dll</HintPath>
+      <HintPath>..\..\TablaDLL\TablaDLL\bin\Debug\TablaDLL.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -121,9 +121,6 @@
     <Content Include="bin\roslyn\System.Xml.XPath.XDocument.dll" />
     <Content Include="bin\roslyn\vbc.exe" />
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
-    <Content Include="bin\TablaDLL.dll" />
-    <Content Include="bin\TablaDLL.pdb" />
-    <Content Include="bin\TablaDLL.xml" />
     <Content Include="Default.aspx" />
     <Content Include="dist\assets\img\AdminLTEFullLogo.png" />
     <Content Include="dist\assets\img\AdminLTELogo.png" />
@@ -336,6 +333,7 @@
     <Content Include="Imagen\VillaDalmine.jpg" />
     <Content Include="index.html" />
     <Content Include="Inicio.aspx" />
+    <Content Include="Service.asmx" />
     <Content Include="src\assets\img\AdminLTEFullLogo.png" />
     <Content Include="src\assets\img\AdminLTELogo.png" />
     <Content Include="src\assets\img\avatar.png" />
@@ -420,6 +418,9 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\Service.cs">
+      <SubType>Component</SubType>
+    </Content>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -634,9 +635,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Code\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup />
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />

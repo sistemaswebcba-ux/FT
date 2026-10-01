@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TablaDLL">
+</Property><Property Name="Solution File" Value="D:\ft\TablaDLL\TablaDLL.sln">
+</Property><Property Name="User Options File" Value="D:\ft\TablaDLL\TablaDLL.suo">
+</Property><Property Name="Date" Value="domingo, 21 de septiembre de 2014">
+</Property><Property Name="Time" Value="18:24">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="TablaDLL.sln" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL.sln">
+</Event><Event ErrorLevel="0" Project="" Source="TablaDLL.suo" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL.suo">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\TablaDLL.vbproj" Description="Project file successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\TablaDLL.vbproj">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\TablaDLL.vbproj.user" Description="Project user file successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\TablaDLL.vbproj.user">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Conexion.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Conexion.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Diferencias.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Diferencias.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Equipo.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Equipo.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Fixture.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Fixture.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Jug.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Jug.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Menu.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Menu.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\MenuPrincipal.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\MenuPrincipal.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Noticia.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Noticia.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Partido.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Partido.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Promociones.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Promociones.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Racha.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Racha.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Tabla.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Tabla.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\My Project\AssemblyInfo.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\My Project\Application.Designer.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\My Project\Resources.Designer.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\My Project\Settings.Designer.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Tantos.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Tantos.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Torneo.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Torneo.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Usuario.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Usuario.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\Visitas.vb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\Visitas.vb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\My Project\Application.myapp" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\My Project\Settings.settings" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\bin\Debug\Microsoft.ApplicationBlocks.Data.dll" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\bin\Debug\Microsoft.ApplicationBlocks.Data.dll">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\bin\Debug\TablaDLL.dll" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\bin\Debug\TablaDLL.dll">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\bin\Debug\TablaDLL.pdb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\bin\Debug\TablaDLL.pdb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\bin\Debug\TablaDLL.xml" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\bin\Debug\TablaDLL.xml">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\bin\Release\TablaDLL.dll" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\bin\Release\TablaDLL.dll">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\bin\Release\TablaDLL.pdb" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\bin\Release\TablaDLL.pdb">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\My Project\Resources.resx" Description="File successfully backed up as D:\ft\TablaDLL\Backup\TablaDLL\My Project\Resources.resx">
+</Event><Event ErrorLevel="1" Project="TablaDLL" Source="TablaDLL\TablaDLL.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\TablaDLL.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TablaDLL" Source="TablaDLL\TablaDLL.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TablaDLL.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TablaDLL.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TablaDLL" Source="TablaDLL\TablaDLL.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

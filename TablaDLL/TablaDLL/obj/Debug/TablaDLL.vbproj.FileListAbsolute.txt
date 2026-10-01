@@ -1,0 +1,22 @@
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\bin\Debug\TablaDLL.dll
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\bin\Debug\TablaDLL.pdb
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\bin\Debug\TablaDLL.xml
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Debug\TablaDLL.Resources.resources
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Debug\TablaDLL.vbproj.GenerateResource.Cache
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Debug\TablaDLL.dll
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Debug\TablaDLL.xml
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Debug\TablaDLL.pdb
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Debug\TablaDLL.vbproj.AssemblyReference.cache
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Debug\TablaDLL.vbproj.CoreCompileInputs.cache
+D:\PROGRAMACION\ft\TablaDLL\TablaDLL\obj\Debug\TablaDLL.vbproj.Up2Date
+D:\PROGRAMACION 3\FT\FT\TablaDLL\TablaDLL\bin\Debug\TablaDLL.dll
+D:\PROGRAMACION 3\FT\FT\TablaDLL\TablaDLL\bin\Debug\TablaDLL.pdb
+D:\PROGRAMACION 3\FT\FT\TablaDLL\TablaDLL\bin\Debug\TablaDLL.xml
+D:\PROGRAMACION 3\FT\FT\TablaDLL\TablaDLL\obj\Debug\TablaDLL.vbproj.AssemblyReference.cache
+D:\PROGRAMACION 3\FT\FT\TablaDLL\TablaDLL\obj\Debug\TablaDLL.Resources.resources
+D:\PROGRAMACION 3\FT\FT\TablaDLL\TablaDLL\obj\Debug\TablaDLL.vbproj.GenerateResource.cache
+D:\PROGRAMACION 3\FT\FT\TablaDLL\TablaDLL\obj\Debug\TablaDLL.vbproj.CoreCompileInputs.cache
+D:\PROGRAMACION 3\FT\FT\TablaDLL\TablaDLL\obj\Debug\TablaDLL.vbproj.Up2Date
+D:\PROGRAMACION 3\FT\FT\TablaDLL\TablaDLL\obj\Debug\TablaDLL.dll
+D:\PROGRAMACION 3\FT\FT\TablaDLL\TablaDLL\obj\Debug\TablaDLL.xml
+D:\PROGRAMACION 3\FT\FT\TablaDLL\TablaDLL\obj\Debug\TablaDLL.pdb
