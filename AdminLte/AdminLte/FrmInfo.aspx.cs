@@ -26,11 +26,17 @@ namespace AdminLte
       DataTable trdo = eq.EquipoGetbyId(IdEquipo);
       if (trdo.Rows.Count >0)
       {
+        lblEquipo.Text = trdo.Rows[0]["Equipo"].ToString(); 
         IMG.ImageUrl = "~/Imagen/" + trdo.Rows[0]["Foto"].ToString();     
       }
 
       Tabla tb = new Tabla();
       DataTable tresul = tb.TablaResumida(Id1, IdEquipo);
+      if (tresul.Rows.Count >0 )
+      {
+        Grilla1.DataSource = tresul;
+        Grilla1.DataBind();
+      }
 
 
     }

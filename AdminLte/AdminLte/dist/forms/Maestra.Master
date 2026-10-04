@@ -313,7 +313,7 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="FrmEquipos.aspx?Cat=1&Id1=2&Id2=3" class="nav-link">
+                    <a href="FrmEquipos.aspx?Cat=1&Id1=4&Id2=5&Id3=2&Id4=3" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Equipos</p>
                     </a>

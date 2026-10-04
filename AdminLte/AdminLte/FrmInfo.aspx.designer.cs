@@ -15,13 +15,13 @@ namespace AdminLte
     {
 
         /// <summary>
-        /// Control pnlHome.
+        /// Control lblEquipo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlHome;
+        protected global::System.Web.UI.WebControls.Label lblEquipo;
 
         /// <summary>
         /// Control IMG.
@@ -31,6 +31,24 @@ namespace AdminLte
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image IMG;
+
+        /// <summary>
+        /// Control Grilla1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView Grilla1;
+
+        /// <summary>
+        /// Control pnlHome.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlHome;
 
         /// <summary>
         /// Control pnlProfile.
