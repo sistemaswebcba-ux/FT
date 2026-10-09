@@ -26,7 +26,7 @@
             </div>
             <div class="col-2 border d-flex align-items-center justify-content-center">
                <asp:ImageButton ID="Img6" runat="server" Width="50px" Height="50px"
-     ImageUrl="" />
+     ImageUrl="" OnClick="Img6_Click" />
             </div>
         </div>
       <div class="row g-0 fila-pantalla">

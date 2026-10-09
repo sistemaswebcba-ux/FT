@@ -31,4 +31,22 @@ Public Class Torneo
         Return t
     End Function
 
+    Public Function GetTorneoxEquipoyTemporada(IdEquipo As Integer, Temporada As String
+                                               ) As DataTable
+
+        Dim sql As String
+        sql = "SELECT * "
+        sql = sql + " FROM EquiposxTorneo e, torneo t "
+        sql = sql + " where e.IdTorneo = t.IdTorneo "
+        sql = sql + " and IdEquipo =" + IdEquipo.ToString()
+        sql = sql + " and Temporada =" + "'" + Temporada + "'"
+        Dim t As DataTable
+        t = SqlHelper.ExecuteDataset(cad, CommandType.Text, sql).Tables(0)
+        Return t
+
+
+
+    End Function
+
+
 End Class

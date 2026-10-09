@@ -33,6 +33,15 @@ namespace AdminLte
         protected global::System.Web.UI.WebControls.Image IMG;
 
         /// <summary>
+        /// Control lblTorneo1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTorneo1;
+
+        /// <summary>
         /// Control Grilla1.
         /// </summary>
         /// <remarks>
@@ -42,21 +51,21 @@ namespace AdminLte
         protected global::System.Web.UI.WebControls.GridView Grilla1;
 
         /// <summary>
-        /// Control pnlHome.
+        /// Control lblTorneo2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlHome;
+        protected global::System.Web.UI.WebControls.Label lblTorneo2;
 
         /// <summary>
-        /// Control pnlProfile.
+        /// Control Grilla2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlProfile;
+        protected global::System.Web.UI.WebControls.GridView Grilla2;
     }
 }

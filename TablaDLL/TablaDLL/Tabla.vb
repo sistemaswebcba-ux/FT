@@ -623,7 +623,7 @@ Public Class Tabla
         sql = sql + " and jugo =1"
         sql = sql + " UNION"
         sql = sql + " select 'Visitante' as condicion, isnull((sum(Ganov) + sum(Empatev)+sum(Perdiov)),0) pj, "
-        sql = sql + " isnull(sum(pl),0) pts,"
+        sql = sql + " isnull(sum(pv),0) pts,"
         sql = sql + "isnull(sum(Ganov),0) g,isnull(sum(Empatev),0) e,isnull(sum(Perdiov),0) p,isnull(sum(Gv),0) gf,isnull(sum(gl),0) gc,"
         sql = sql + "isnull((sum(gv)-sum(gl)),0) dif"
         sql = sql + " from fixture where idvisitante=" + IdEquipo.ToString()

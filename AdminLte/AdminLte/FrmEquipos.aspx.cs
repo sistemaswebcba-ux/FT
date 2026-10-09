@@ -157,12 +157,18 @@ namespace AdminLte
 
     protected void Img17_Click(object sender, ImageClickEventArgs e)
     {   // Dim idEq As String = Img1.CommandArgument.ToString()
-      string Id1 = Request.QueryString["Id1"].ToString();
-      string Id2 = Request.QueryString["Id2"].ToString();
-      string Id3 = Request.QueryString["Id3"].ToString();
-      string Id4 = Request.QueryString["Id4"].ToString();
+      string Temp = Request.QueryString["Temp"].ToString();
+     
       string IdEquipo = Img17.CommandArgument.ToString();
-      string Pagina = "FrmInfo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Id1=" + Id1.ToString() + "&Id2=" + Id2.ToString() + "&Id3=" + Id3.ToString() + "&Id4=" + Id4.ToString();
+      string Pagina = "FrmInfo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img6_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img6.CommandArgument.ToString();
+      string Pagina = "FrmInfo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp;
       Response.Redirect(Pagina);
     }
   }
