@@ -3,7 +3,7 @@
 <htmll>
 
   <head>
-   
+
     <link href="../../Estilo/EstiloGrilla.css" rel="stylesheet" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Sistema web  | General Form Elements</title>
@@ -14,7 +14,7 @@
     <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)" />
     <!--end::Accessibility Meta Tags-->
     <!--begin::Primary Meta Tags-->
-    <meta name="title" content="AdminLTE 4 | General Form Elements" />
+    <meta name="title" content="" />
     <meta name="author" content="ColorlibHQ" />
     <meta
       name="description"
@@ -62,7 +62,6 @@
   <!--begin::Body-->
   <body class="layout-fixed sidebar-expand-lg sidebar-open bg-body-tertiary">
     <p>
-      
     </p>
     <!--begin::App Wrapper-->
     <div class="app-wrapper">
@@ -293,8 +292,10 @@
                   <i class="nav-arrow bi bi-chevron-right"></i>
                   </p>
                 </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
+                <!-- nav nav-treeview -->
+
+                <ul class="nav nav-treeview" style="display: block;">
+                  <li class="nav-item menu-open">
                     <a href="Inicio.aspx?Id=2" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Clausura Zona A</p>
@@ -307,7 +308,7 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="FrmTablaAnual.aspx?Id1=2&Id2=3&Id3=0&Id4=0" class="nav-link">
+                    <a href="FrmTablaAnual.aspx?Id1=2&Id2=3&Id3=4&Id4=5" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Tabla Anual </p>
                     </a>
@@ -316,6 +317,18 @@
                     <a href="FrmEquipos.aspx?Cat=1&Temp=2026" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Equipos</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="FrmLocalVisitante.aspx?Temp=2026&Cat=1&Tipo=l" class="nav-link">
+                      <i class="nav-icon bi bi-circle"></i>
+                      <p>Tabla Locales </p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="FrmLocalVisitante.aspx?Temp=2026&Cat=1&Tipo=v" class="nav-link">
+                      <i class="nav-icon bi bi-circle"></i>
+                      <p>Tabla Visitantes </p>
                     </a>
                   </li>
                 </ul>
@@ -731,25 +744,14 @@
       <!--begin::App Main-->
       <main class="app-main">
         <!--begin::App Content Header-->
+
         <div class="app-content-header">
           <!--begin::Container-->
-          <div class="container-fluid">
-            <!--begin::Row-->
-            <div class="row">
-              <div class="col-sm-6">
-                <h3 class="mb-0">General Form</h3>
-              </div>
-              <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-end">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">General Form</li>
-                </ol>
-              </div>
-            </div>
-            <!--end::Row-->
-          </div>
+
+
           <!--end::Container-->
         </div>
+
         <!--end::App Content Header-->
         <!--begin::App Content-->
         <div class="app-content">

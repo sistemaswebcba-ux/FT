@@ -1012,14 +1012,16 @@ Public Class Tabla
         Dim cad As String
         cad = con.Cadena()
         Dim t1, t2 As DataTable
-
+        Dim t3, t4 As DataTable
+        Dim i, j As Integer
 
         t1 = TablaGral(IdTorneo1).ToTable
         t2 = TablaGral(IdTorneo2).ToTable
-
+        t3 = TablaGral(IdTorneo3).ToTable
+        t4 = TablaGral(IdTorneo4).ToTable
         'anexo a t1 la tabla t2 ya que tiene equipos distintos
         Dim nom As String
-        Dim i As Integer
+
         i = 0
         For i = 0 To t2.Rows.Count - 1
             Dim r As DataRow = t1.NewRow()
@@ -1038,6 +1040,39 @@ Public Class Tabla
             t1.Rows.Add(r)
         Next
 
+        If (t3.Rows.Count > 0) Then
+            For i = 0 To t1.Rows.Count - 1
+                For j = 0 To t3.Rows.Count - 1
+                    If t1.Rows(i)("idequipo").ToString() = t3.Rows(j)("idequipo").ToString() Then
+                        t1.Rows(i)("PTS") = Convert.ToInt16(t1.Rows(i)("PTS")) + Convert.ToInt16(t3.Rows(j)("PTS"))
+                        t1.Rows(i)("PJ") = Convert.ToInt16(t1.Rows(i)("PJ")) + Convert.ToInt16(t3.Rows(j)("PJ"))
+                        t1.Rows(i)("G") = Convert.ToInt16(t1.Rows(i)("G")) + Convert.ToInt16(t3.Rows(j)("G"))
+                        t1.Rows(i)("E") = Convert.ToInt16(t1.Rows(i)("E")) + Convert.ToInt16(t3.Rows(j)("E"))
+                        t1.Rows(i)("P") = Convert.ToInt16(t1.Rows(i)("P")) + Convert.ToInt16(t3.Rows(j)("P"))
+                        t1.Rows(i)("GF") = Convert.ToInt16(t1.Rows(i)("GF")) + Convert.ToInt16(t3.Rows(j)("GF"))
+                        t1.Rows(i)("GC") = Convert.ToInt16(t1.Rows(i)("GC")) + Convert.ToInt16(t3.Rows(j)("GC"))
+                        t1.Rows(i)("DIF") = Convert.ToInt16(t1.Rows(i)("DIF")) + Convert.ToInt16(t3.Rows(j)("DIF"))
+                    End If
+                Next
+            Next
+        End If
+
+        If (t4.Rows.Count > 0) Then
+            For i = 0 To t1.Rows.Count - 1
+                For j = 0 To t4.Rows.Count - 1
+                    If t1.Rows(i)("idequipo").ToString() = t4.Rows(j)("idequipo").ToString() Then
+                        t1.Rows(i)("PTS") = Convert.ToInt16(t1.Rows(i)("PTS")) + Convert.ToInt16(t4.Rows(j)("PTS"))
+                        t1.Rows(i)("PJ") = Convert.ToInt16(t1.Rows(i)("PJ")) + Convert.ToInt16(t4.Rows(j)("PJ"))
+                        t1.Rows(i)("G") = Convert.ToInt16(t1.Rows(i)("G")) + Convert.ToInt16(t4.Rows(j)("G"))
+                        t1.Rows(i)("E") = Convert.ToInt16(t1.Rows(i)("E")) + Convert.ToInt16(t4.Rows(j)("E"))
+                        t1.Rows(i)("P") = Convert.ToInt16(t1.Rows(i)("P")) + Convert.ToInt16(t4.Rows(j)("P"))
+                        t1.Rows(i)("GF") = Convert.ToInt16(t1.Rows(i)("GF")) + Convert.ToInt16(t4.Rows(j)("GF"))
+                        t1.Rows(i)("GC") = Convert.ToInt16(t1.Rows(i)("GC")) + Convert.ToInt16(t4.Rows(j)("GC"))
+                        t1.Rows(i)("DIF") = Convert.ToInt16(t1.Rows(i)("DIF")) + Convert.ToInt16(t4.Rows(j)("DIF"))
+                    End If
+                Next
+            Next
+        End If
 
 
         Dim vista As New DataView()
@@ -1053,5 +1088,172 @@ Public Class Tabla
 
     End Function
 
+    Public Function CargarTablaLocalx4(ByVal IdTorneo1 As Integer, IdTorneo2 As Integer, idTorneo3 As Integer, IdTorneo4 As Integer
+                                       ) As DataView
+        Dim cad As String
+        Dim con As New Conexion()
+        cad = con.Cadena()
+        Dim t1 As DataTable
+        Dim t2 As DataTable
+        Dim t3 As DataTable
+        Dim t4 As DataTable
+        Dim i, j As Integer
+        Dim nom As String
+        i = 1
+
+        t1 = SqlHelper.ExecuteDataset(cad, "TablaLocalGet", IdTorneo1).Tables(0)
+        t2 = SqlHelper.ExecuteDataset(cad, "TablaLocalGet", IdTorneo2).Tables(0)
+        t3 = SqlHelper.ExecuteDataset(cad, "TablaLocalGet", idTorneo3).Tables(0)
+        t4 = SqlHelper.ExecuteDataset(cad, "TablaLocalGet", IdTorneo4).Tables(0)
+
+        i = 0
+        j = 0
+        For i = 0 To t2.Rows.Count - 1
+            Dim r As DataRow = t1.NewRow()
+            r("Pos") = "1"
+            r("idequipo") = t2.Rows(i)("idequipo")
+            nom = t2.Rows(i)("equipo")
+            r("equipo") = t2.Rows(i)("equipo")
+            r("PTS") = t2.Rows(i)("PTS")
+            r("PJ") = t2.Rows(i)("PJ")
+            r("G") = t2.Rows(i)("G")
+            r("E") = t2.Rows(i)("E")
+            r("P") = t2.Rows(i)("P")
+            r("GF") = t2.Rows(i)("GF")
+            r("GC") = t2.Rows(i)("GC")
+            r("DIF") = t2.Rows(i)("DIF")
+            t1.Rows.Add(r)
+        Next
+
+        If (t3.Rows.Count > 0) Then
+            For i = 0 To t1.Rows.Count - 1
+                For j = 0 To t3.Rows.Count - 1
+                    If t1.Rows(i)("idequipo").ToString() = t3.Rows(j)("idequipo").ToString() Then
+                        t1.Rows(i)("PTS") = Convert.ToInt16(t1.Rows(i)("PTS")) + Convert.ToInt16(t3.Rows(j)("PTS"))
+                        t1.Rows(i)("PJ") = Convert.ToInt16(t1.Rows(i)("PJ")) + Convert.ToInt16(t3.Rows(j)("PJ"))
+                        t1.Rows(i)("G") = Convert.ToInt16(t1.Rows(i)("G")) + Convert.ToInt16(t3.Rows(j)("G"))
+                        t1.Rows(i)("E") = Convert.ToInt16(t1.Rows(i)("E")) + Convert.ToInt16(t3.Rows(j)("E"))
+                        t1.Rows(i)("P") = Convert.ToInt16(t1.Rows(i)("P")) + Convert.ToInt16(t3.Rows(j)("P"))
+                        t1.Rows(i)("GF") = Convert.ToInt16(t1.Rows(i)("GF")) + Convert.ToInt16(t3.Rows(j)("GF"))
+                        t1.Rows(i)("GC") = Convert.ToInt16(t1.Rows(i)("GC")) + Convert.ToInt16(t3.Rows(j)("GC"))
+                        t1.Rows(i)("DIF") = Convert.ToInt16(t1.Rows(i)("DIF")) + Convert.ToInt16(t3.Rows(j)("DIF"))
+                    End If
+                Next
+            Next
+        End If
+
+        If (t4.Rows.Count > 0) Then
+            For i = 0 To t1.Rows.Count - 1
+                For j = 0 To t4.Rows.Count - 1
+                    If t1.Rows(i)("idequipo").ToString() = t4.Rows(j)("idequipo").ToString() Then
+                        t1.Rows(i)("PTS") = Convert.ToInt16(t1.Rows(i)("PTS")) + Convert.ToInt16(t4.Rows(j)("PTS"))
+                        t1.Rows(i)("PJ") = Convert.ToInt16(t1.Rows(i)("PJ")) + Convert.ToInt16(t4.Rows(j)("PJ"))
+                        t1.Rows(i)("G") = Convert.ToInt16(t1.Rows(i)("G")) + Convert.ToInt16(t4.Rows(j)("G"))
+                        t1.Rows(i)("E") = Convert.ToInt16(t1.Rows(i)("E")) + Convert.ToInt16(t4.Rows(j)("E"))
+                        t1.Rows(i)("P") = Convert.ToInt16(t1.Rows(i)("P")) + Convert.ToInt16(t4.Rows(j)("P"))
+                        t1.Rows(i)("GF") = Convert.ToInt16(t1.Rows(i)("GF")) + Convert.ToInt16(t4.Rows(j)("GF"))
+                        t1.Rows(i)("GC") = Convert.ToInt16(t1.Rows(i)("GC")) + Convert.ToInt16(t4.Rows(j)("GC"))
+                        t1.Rows(i)("DIF") = Convert.ToInt16(t1.Rows(i)("DIF")) + Convert.ToInt16(t4.Rows(j)("DIF"))
+                    End If
+                Next
+            Next
+        End If
+
+        Dim vista As New DataView()
+        t1.DefaultView.Sort = "pts desc,dif desc,gf desc"
+        vista = t1.DefaultView
+        i = 1
+        For Each fila As DataRowView In vista
+            fila.Item("pos") = i
+            i = i + 1
+        Next
+        'Grilla.DataSource = vista
+        Return vista
+
+    End Function
+
+    Public Function CargarTablaVisitantex4(ByVal IdTorneo1 As Integer, IdTorneo2 As Integer, idTorneo3 As Integer, IdTorneo4 As Integer
+                                       ) As DataView
+        Dim cad As String
+        Dim con As New Conexion()
+        cad = con.Cadena()
+        Dim t1 As DataTable
+        Dim t2 As DataTable
+        Dim t3 As DataTable
+        Dim t4 As DataTable
+        Dim i, j As Integer
+        Dim nom As String
+        i = 1
+
+        t1 = SqlHelper.ExecuteDataset(cad, "TablaVisitanteGet", IdTorneo1).Tables(0)
+        t2 = SqlHelper.ExecuteDataset(cad, "TablaVisitanteGet", IdTorneo2).Tables(0)
+        t3 = SqlHelper.ExecuteDataset(cad, "TablaVisitanteGet", idTorneo3).Tables(0)
+        t4 = SqlHelper.ExecuteDataset(cad, "TablaVisitanteGet", IdTorneo4).Tables(0)
+
+        i = 0
+        j = 0
+        For i = 0 To t2.Rows.Count - 1
+            Dim r As DataRow = t1.NewRow()
+            r("Pos") = "1"
+            r("idequipo") = t2.Rows(i)("idequipo")
+            nom = t2.Rows(i)("equipo")
+            r("equipo") = t2.Rows(i)("equipo")
+            r("PTS") = t2.Rows(i)("PTS")
+            r("PJ") = t2.Rows(i)("PJ")
+            r("G") = t2.Rows(i)("G")
+            r("E") = t2.Rows(i)("E")
+            r("P") = t2.Rows(i)("P")
+            r("GF") = t2.Rows(i)("GF")
+            r("GC") = t2.Rows(i)("GC")
+            r("DIF") = t2.Rows(i)("DIF")
+            t1.Rows.Add(r)
+        Next
+
+        If (t3.Rows.Count > 0) Then
+            For i = 0 To t1.Rows.Count - 1
+                For j = 0 To t3.Rows.Count - 1
+                    If t1.Rows(i)("idequipo").ToString() = t3.Rows(j)("idequipo").ToString() Then
+                        t1.Rows(i)("PTS") = Convert.ToInt16(t1.Rows(i)("PTS")) + Convert.ToInt16(t3.Rows(j)("PTS"))
+                        t1.Rows(i)("PJ") = Convert.ToInt16(t1.Rows(i)("PJ")) + Convert.ToInt16(t3.Rows(j)("PJ"))
+                        t1.Rows(i)("G") = Convert.ToInt16(t1.Rows(i)("G")) + Convert.ToInt16(t3.Rows(j)("G"))
+                        t1.Rows(i)("E") = Convert.ToInt16(t1.Rows(i)("E")) + Convert.ToInt16(t3.Rows(j)("E"))
+                        t1.Rows(i)("P") = Convert.ToInt16(t1.Rows(i)("P")) + Convert.ToInt16(t3.Rows(j)("P"))
+                        t1.Rows(i)("GF") = Convert.ToInt16(t1.Rows(i)("GF")) + Convert.ToInt16(t3.Rows(j)("GF"))
+                        t1.Rows(i)("GC") = Convert.ToInt16(t1.Rows(i)("GC")) + Convert.ToInt16(t3.Rows(j)("GC"))
+                        t1.Rows(i)("DIF") = Convert.ToInt16(t1.Rows(i)("DIF")) + Convert.ToInt16(t3.Rows(j)("DIF"))
+                    End If
+                Next
+            Next
+        End If
+
+        If (t4.Rows.Count > 0) Then
+            For i = 0 To t1.Rows.Count - 1
+                For j = 0 To t4.Rows.Count - 1
+                    If t1.Rows(i)("idequipo").ToString() = t4.Rows(j)("idequipo").ToString() Then
+                        t1.Rows(i)("PTS") = Convert.ToInt16(t1.Rows(i)("PTS")) + Convert.ToInt16(t4.Rows(j)("PTS"))
+                        t1.Rows(i)("PJ") = Convert.ToInt16(t1.Rows(i)("PJ")) + Convert.ToInt16(t4.Rows(j)("PJ"))
+                        t1.Rows(i)("G") = Convert.ToInt16(t1.Rows(i)("G")) + Convert.ToInt16(t4.Rows(j)("G"))
+                        t1.Rows(i)("E") = Convert.ToInt16(t1.Rows(i)("E")) + Convert.ToInt16(t4.Rows(j)("E"))
+                        t1.Rows(i)("P") = Convert.ToInt16(t1.Rows(i)("P")) + Convert.ToInt16(t4.Rows(j)("P"))
+                        t1.Rows(i)("GF") = Convert.ToInt16(t1.Rows(i)("GF")) + Convert.ToInt16(t4.Rows(j)("GF"))
+                        t1.Rows(i)("GC") = Convert.ToInt16(t1.Rows(i)("GC")) + Convert.ToInt16(t4.Rows(j)("GC"))
+                        t1.Rows(i)("DIF") = Convert.ToInt16(t1.Rows(i)("DIF")) + Convert.ToInt16(t4.Rows(j)("DIF"))
+                    End If
+                Next
+            Next
+        End If
+
+        Dim vista As New DataView()
+        t1.DefaultView.Sort = "pts desc,dif desc,gf desc"
+        vista = t1.DefaultView
+        i = 1
+        For Each fila As DataRowView In vista
+            fila.Item("pos") = i
+            i = i + 1
+        Next
+        'Grilla.DataSource = vista
+        Return vista
+
+    End Function
 
 End Class

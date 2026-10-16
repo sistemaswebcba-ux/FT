@@ -204,6 +204,7 @@
     <Content Include="Estilo\EstiloGrilla.css" />
     <Content Include="FrmEquipos.aspx" />
     <Content Include="FrmInfo.aspx" />
+    <Content Include="FrmLocalVisitante.aspx" />
     <Content Include="FrmTablaAnual.aspx" />
     <Content Include="Imagen\Acassuso.jpg" />
     <Content Include="Imagen\afa.jpg" />
@@ -455,6 +456,13 @@
     </Compile>
     <Compile Include="FrmInfo.aspx.designer.cs">
       <DependentUpon>FrmInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLocalVisitante.aspx.cs">
+      <DependentUpon>FrmLocalVisitante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmLocalVisitante.aspx.designer.cs">
+      <DependentUpon>FrmLocalVisitante.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmTablaAnual.aspx.cs">
       <DependentUpon>FrmTablaAnual.aspx</DependentUpon>

@@ -2,6 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+  <div>
+    tabla anual
+  </div>
   <div class="table-responsive  container-grid">
 <asp:GridView ID="Gridlla" runat="server" translate="no" 
       CssClass="table table-custom table-hover table-bordered table-striped table-responsive-sm table-sm text-wrap grilla-compacta grid-sin-espacios " 
