@@ -1256,4 +1256,115 @@ Public Class Tabla
 
     End Function
 
+    Public Function cargarporfechax4(ByVal IdTorneo1 As Integer, ByVal IdTorneo2 As Integer, ByVal IdTorneo3 As Integer, ByVal IdTorneo4 As Integer, ByVal fechaDesde As Integer, ByVal fechaHasta As Integer, ByVal fechaDesde2 As Integer, ByVal fechaHasta2 As Integer) As DataView
+        'trae solo las fechas de local, faltan las visitanes
+        Dim t1, t2, t3, t4 As DataTable
+        Dim cad As String
+        Dim con As New Conexion()
+        cad = con.Cadena()
+        t1 = cargarporfechasDatatable(IdTorneo1, fechaDesde, fechaHasta)
+
+
+        t2 = cargarporfechasDatatable(IdTorneo2, fechaDesde, fechaHasta)
+        't2 = CompletarTabla(t2, IdTorneo1)
+        t3 = cargarporfechasDatatable(IdTorneo3, fechaDesde2, fechaHasta2)
+        't3 = CompletarTabla(t3, IdTorneo1)
+        t4 = cargarporfechasDatatable(IdTorneo4, fechaDesde2, fechaHasta2)
+        't4 = CompletarTabla(t4, IdTorneo1)
+        Dim nom As String
+        Dim i, j As Integer
+        i = 0
+        For i = 0 To t2.Rows.Count - 1
+            Dim r As DataRow = t1.NewRow()
+            r("Pos") = "1"
+            r("idequipo") = t2.Rows(i)("idequipo")
+            nom = t2.Rows(i)("equipo")
+            r("equipo") = t2.Rows(i)("equipo")
+            r("PTS") = t2.Rows(i)("PTS")
+            r("PJ") = t2.Rows(i)("PJ")
+            r("G") = t2.Rows(i)("G")
+            r("E") = t2.Rows(i)("E")
+            r("P") = t2.Rows(i)("P")
+            r("GF") = t2.Rows(i)("GF")
+            r("GC") = t2.Rows(i)("GC")
+            r("DIF") = t2.Rows(i)("DIF")
+            t1.Rows.Add(r)
+        Next
+
+        If (t3.Rows.Count > 0) Then
+            For i = 0 To t1.Rows.Count - 1
+                For j = 0 To t3.Rows.Count - 1
+                    If t1.Rows(i)("idequipo").ToString() = t3.Rows(j)("idequipo").ToString() Then
+                        t1.Rows(i)("PTS") = Convert.ToInt16(t1.Rows(i)("PTS")) + Convert.ToInt16(t3.Rows(j)("PTS"))
+                        t1.Rows(i)("PJ") = Convert.ToInt16(t1.Rows(i)("PJ")) + Convert.ToInt16(t3.Rows(j)("PJ"))
+                        t1.Rows(i)("G") = Convert.ToInt16(t1.Rows(i)("G")) + Convert.ToInt16(t3.Rows(j)("G"))
+                        t1.Rows(i)("E") = Convert.ToInt16(t1.Rows(i)("E")) + Convert.ToInt16(t3.Rows(j)("E"))
+                        t1.Rows(i)("P") = Convert.ToInt16(t1.Rows(i)("P")) + Convert.ToInt16(t3.Rows(j)("P"))
+                        t1.Rows(i)("GF") = Convert.ToInt16(t1.Rows(i)("GF")) + Convert.ToInt16(t3.Rows(j)("GF"))
+                        t1.Rows(i)("GC") = Convert.ToInt16(t1.Rows(i)("GC")) + Convert.ToInt16(t3.Rows(j)("GC"))
+                        t1.Rows(i)("DIF") = Convert.ToInt16(t1.Rows(i)("DIF")) + Convert.ToInt16(t3.Rows(j)("DIF"))
+                    End If
+                Next
+            Next
+        End If
+
+        If (t4.Rows.Count > 0) Then
+            For i = 0 To t1.Rows.Count - 1
+                For j = 0 To t4.Rows.Count - 1
+                    If t1.Rows(i)("idequipo").ToString() = t4.Rows(j)("idequipo").ToString() Then
+                        t1.Rows(i)("PTS") = Convert.ToInt16(t1.Rows(i)("PTS")) + Convert.ToInt16(t4.Rows(j)("PTS"))
+                        t1.Rows(i)("PJ") = Convert.ToInt16(t1.Rows(i)("PJ")) + Convert.ToInt16(t4.Rows(j)("PJ"))
+                        t1.Rows(i)("G") = Convert.ToInt16(t1.Rows(i)("G")) + Convert.ToInt16(t4.Rows(j)("G"))
+                        t1.Rows(i)("E") = Convert.ToInt16(t1.Rows(i)("E")) + Convert.ToInt16(t4.Rows(j)("E"))
+                        t1.Rows(i)("P") = Convert.ToInt16(t1.Rows(i)("P")) + Convert.ToInt16(t4.Rows(j)("P"))
+                        t1.Rows(i)("GF") = Convert.ToInt16(t1.Rows(i)("GF")) + Convert.ToInt16(t4.Rows(j)("GF"))
+                        t1.Rows(i)("GC") = Convert.ToInt16(t1.Rows(i)("GC")) + Convert.ToInt16(t4.Rows(j)("GC"))
+                        t1.Rows(i)("DIF") = Convert.ToInt16(t1.Rows(i)("DIF")) + Convert.ToInt16(t4.Rows(j)("DIF"))
+                    End If
+                Next
+            Next
+        End If
+
+
+        Dim vista As New DataView()
+        t1.DefaultView.Sort = "pts desc,dif desc,gf desc"
+        vista = t1.DefaultView
+        i = 1
+        For Each fila As DataRowView In vista
+            fila.Item("pos") = i
+            i = i + 1
+        Next
+        'Grilla.DataSource = vista
+        Return vista
+    End Function
+
+    Public Function cargarporfechasDatatable(ByVal idTorneoSeleccionado As Integer, ByVal fechaDesde As Integer, ByVal fechaHasta As Integer) As DataTable
+
+        Dim tl, tv As DataTable
+        Dim cad As String
+        Dim con As New Conexion()
+        cad = con.Cadena()
+        tl = SqlHelper.ExecuteDataset(cad, "TablaLocalGetxFechas", idTorneoSeleccionado, fechaDesde, fechaHasta).Tables(0)
+        tl = CompletarTabla(tl, idTorneoSeleccionado)
+        tv = SqlHelper.ExecuteDataset(cad, "TablaVisitanteGetxFechas", idTorneoSeleccionado, fechaDesde, fechaHasta).Tables(0)
+        tv = CompletarTabla(tv, idTorneoSeleccionado)
+        Dim i, j As Integer
+        For i = 0 To tl.Rows.Count - 1
+            For j = 0 To tv.Rows.Count - 1
+                If tl.Rows(i)("idequipo").ToString() = tv.Rows(j)("idequipo").ToString() Then
+                    tl.Rows(i)("PTS") = Convert.ToInt16(tl.Rows(i)("PTS")) + Convert.ToInt16(tv.Rows(j)("PTS"))
+                    tl.Rows(i)("PJ") = Convert.ToInt16(tl.Rows(i)("PJ")) + Convert.ToInt16(tv.Rows(j)("PJ"))
+                    tl.Rows(i)("G") = Convert.ToInt16(tl.Rows(i)("G")) + Convert.ToInt16(tv.Rows(j)("G"))
+                    tl.Rows(i)("E") = Convert.ToInt16(tl.Rows(i)("E")) + Convert.ToInt16(tv.Rows(j)("E"))
+                    tl.Rows(i)("P") = Convert.ToInt16(tl.Rows(i)("P")) + Convert.ToInt16(tv.Rows(j)("P"))
+                    tl.Rows(i)("GF") = Convert.ToInt16(tl.Rows(i)("GF")) + Convert.ToInt16(tv.Rows(j)("GF"))
+                    tl.Rows(i)("GC") = Convert.ToInt16(tl.Rows(i)("GC")) + Convert.ToInt16(tv.Rows(j)("GC"))
+                    tl.Rows(i)("DIF") = Convert.ToInt16(tl.Rows(i)("DIF")) + Convert.ToInt16(tv.Rows(j)("DIF"))
+                End If
+            Next
+        Next
+
+        Return tl
+    End Function
+
 End Class

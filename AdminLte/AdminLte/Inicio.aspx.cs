@@ -14,6 +14,10 @@ namespace AdminLte
   {
     protected void Page_Load(object sender, EventArgs e)
     {
+      //probar si funcion
+    //  TablaDLL.Tabla obj = new TablaDLL.Tabla();
+    //  DataView vista = obj.cargarporfechax4(2, 3, 4, 5, 5, 16, 1, 16);
+
       string Id = Request.QueryString["Id"].ToString();
       if (Id !="")
       {
