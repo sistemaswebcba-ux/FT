@@ -1,0 +1,104 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master2.master.cs" Inherits="AdminLte.dist.forms.Master2" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><asp:Literal ID="PageTitle" runat="server" Text="AdminLte - Master2" /></title>
+    <!-- Bootstrap 5 CSS (antes de AdminLTE, igual que en Maestra.Master) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" />
+    <!-- AdminLTE -->
+    <link rel="stylesheet" href="../css/adminlte.min.css" />
+    <!-- Bootstrap Icons (mismo CDN que Maestra.Master) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <!-- Estilos propios de Master2 -->
+    <link rel="stylesheet" href="../../Estilo/Estilo2.css" />
+    <!-- Placeholder para CSS / JS por página -->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <!-- ============ MENÚ PRINCIPAL BOOTSTRAP ============ -->
+            <nav class="navbar navbar-expand-lg navbar-master2">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Futbol Argentino</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMaster2" aria-controls="navbarMaster2" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarMaster2">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <!-- Primera División -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Primera Division
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Tabla Anual</a></li>
+                                    <li><a class="dropdown-item" href="#">Locales</a></li>
+                                    <li><a class="dropdown-item" href="#">Visitantes</a></li>
+                                    <li><a class="dropdown-item" href="#">Promedio</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- B Nacional Zona A -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    B Nacional Zona A
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Tabla Anual</a></li>
+                                    <li><a class="dropdown-item" href="#">Local</a></li>
+                                    <li><a class="dropdown-item" href="#">Visitante</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- B Nacional Zona B -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    B Nacional Zona B
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Tabla Anual</a></li>
+                                    <li><a class="dropdown-item" href="#">Local</a></li>
+                                    <li><a class="dropdown-item" href="#">Visitante</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- ============ FIN MENÚ ============ -->
+
+            <!-- Header (placeholder) -->
+            <header>
+                <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </header>
+
+            <!-- Contenido principal -->
+            <main class="master2-main">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    <p>Contenido principal Master2 - aqui ira el contenido de cada pagina.</p>
+                </asp:ContentPlaceHolder>
+            </main>
+
+            <!-- Footer -->
+            <footer class="master2-footer">
+                <asp:ContentPlaceHolder ID="FooterContent" runat="server">
+                    <p>&copy; <asp:Literal ID="CurrentYear" runat="server" /> AdminLte</p>
+                </asp:ContentPlaceHolder>
+            </footer>
+        </div>
+    </form>
+    <!-- Bootstrap 5 + AdminLTE JS (mismo orden que Maestra.Master) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="../js/adminlte.min.js"></script>
+    <asp:ContentPlaceHolder ID="BottomScripts" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

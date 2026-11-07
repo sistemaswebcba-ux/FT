@@ -176,6 +176,7 @@
     <Content Include="dist\examples\register-v2.html" />
     <Content Include="dist\examples\register.html" />
     <Content Include="dist\forms\general.html" />
+    <Content Include="dist\forms\Master2.master" />
     <Content Include="dist\forms\Prueba4.aspx" />
     <Content Include="dist\generate\theme.html" />
     <Content Include="dist\index.html" />
@@ -201,10 +202,12 @@
     <Content Include="dist\widgets\info-box.html" />
     <Content Include="dist\widgets\small-box.html" />
     <Content Include="eslint.config.js" />
+    <Content Include="Estilo\Estilo2.css" />
     <Content Include="Estilo\EstiloGrilla.css" />
     <Content Include="FrmEquipos.aspx" />
     <Content Include="FrmInfo.aspx" />
     <Content Include="FrmLocalVisitante.aspx" />
+    <Content Include="FrmPrueba.aspx" />
     <Content Include="FrmTablaAnual.aspx" />
     <Content Include="Imagen\Acassuso.jpg" />
     <Content Include="Imagen\afa.jpg" />
@@ -436,6 +439,13 @@
     <Compile Include="dist\forms\Maestra.Master.designer.cs">
       <DependentUpon>Maestra.Master</DependentUpon>
     </Compile>
+    <Compile Include="dist\forms\Master2.master.cs">
+      <DependentUpon>Master2.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dist\forms\Master2.master.designer.cs">
+      <DependentUpon>Master2.master</DependentUpon>
+    </Compile>
     <Compile Include="dist\forms\Prueba4.aspx.cs">
       <DependentUpon>Prueba4.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -463,6 +473,13 @@
     </Compile>
     <Compile Include="FrmLocalVisitante.aspx.designer.cs">
       <DependentUpon>FrmLocalVisitante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrueba.aspx.cs">
+      <DependentUpon>FrmPrueba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmPrueba.aspx.designer.cs">
+      <DependentUpon>FrmPrueba.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmTablaAnual.aspx.cs">
       <DependentUpon>FrmTablaAnual.aspx</DependentUpon>

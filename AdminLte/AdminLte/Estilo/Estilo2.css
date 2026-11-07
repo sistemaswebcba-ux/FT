@@ -1,0 +1,229 @@
+﻿/* ============================================================
+   Estilo2.css - Estilos para Master2 (menu Bootstrap)
+   ============================================================ */
+
+body {
+    font-family: "Source Sans 3", "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* ---------- AdminLTE wrapper: NO usar overflow:hidden o el dropdown queda cortado ---------- */
+.wrapper { overflow: visible !important; }
+.sidebar-wrapper { overflow: visible !important; }
+.navbar-master2 { position: relative; z-index: 10000; }
+
+/* ---------- Dropdowns Master2 (fondo blanco explícito, alto z-index) ---------- */
+.navbar-master2 .dropdown-menu {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+    padding: 0.5rem 0;
+    min-width: 220px;
+    z-index: 9999;
+}
+
+/* ---------- Navbar principal Master2 ---------- */
+.navbar-master2 {
+    background-color: #1f4d2e;
+    border-bottom: 3px solid #c9a227;
+    min-height: 56px;
+}
+
+.navbar-master2 .navbar-brand {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.navbar-master2 .navbar-brand:hover,
+.navbar-master2 .navbar-brand:focus {
+    color: #ffe08a;
+}
+
+.navbar-master2 .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.6rem 1rem;
+    border-radius: 0.375rem;
+    margin: 0 0.15rem;
+}
+
+.navbar-master2 .navbar-nav .nav-link:hover,
+.navbar-master2 .navbar-nav .nav-link:focus,
+.navbar-master2 .navbar-nav .nav-link.show {
+    background-color: rgba(255,255,255,0.15);
+    color: #ffe08a;
+}
+
+.navbar-master2 .navbar-nav .nav-link.active {
+    background-color: #c9a227;
+    color: #1f4d2e;
+}
+
+/* ---------- Dropdowns (fondo blanco explícito, alto z-index) ---------- */
+
+.navbar-master2 .dropdown-menu .dropdown-item {
+    padding: 0.55rem 1.1rem;
+    font-weight: 500;
+    color: #1f4d2e;
+    border-radius: 0.375rem;
+    margin: 0 0.35rem;
+    background-color: transparent;
+}
+
+.navbar-master2 .dropdown-menu .dropdown-item:hover,
+.navbar-master2 .dropdown-menu .dropdown-item:focus {
+    background-color: #eaf3ec;
+    color: #143320;
+}
+
+.navbar-master2 .dropdown-menu .dropdown-item.active {
+    background-color: #1f4d2e;
+    color: #ffffff;
+}
+
+.navbar-master2 .dropdown-divider {
+    margin: 0.35rem 1rem;
+}
+
+/* ---------- Layout Master2 ---------- */
+.master2-main {
+    padding: 1.5rem 1.25rem 2rem;
+}
+
+.master2-footer {
+    border-top: 1px solid #dee2e6;
+    background: #ffffff;
+    padding: 0.85rem 1.25rem;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* ---------- Grilla Posiciones - Responsive (Opción 1: sin scroll) ---------- */
+/* Envoltorio: sin scroll, la tabla se ajusta al ancho */
+.table-responsive {
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 0 0 0.375rem 0.375rem;
+}
+
+.grilla-posiciones {
+    width: 100%;
+    min-width: 0; /* Opción 1: sin scroll, se ajusta al ancho */
+    margin-bottom: 0 !important;
+    vertical-align: middle;
+    table-layout: auto;
+}
+
+/* Encabezado */
+.grilla-posiciones thead th,
+.grilla-posiciones tr:first-child th {
+    background-color: #1f4d2e !important;
+    color: #ffffff !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    padding: 0.65rem 0.5rem !important;
+    border-color: #143320 !important;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.grilla-posiciones thead th a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+/* Cuerpo */
+.grilla-posiciones tbody td,
+.grilla-posiciones tr td {
+    padding: 0.5rem 0.5rem !important;
+    font-size: 0.875rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-color: #dee2e6 !important;
+}
+
+/* Primera columna (Pos) y segunda (Equipo) alineadas a la izquierda / destacadas */
+.grilla-posiciones tbody td:first-child {
+    font-weight: 700;
+    color: #1f4d2e;
+    background-color: #eaf3ec !important;
+}
+
+.grilla-posiciones tbody td:nth-child(2) {
+    text-align: left;
+    font-weight: 600;
+    max-width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Filas alternadas */
+.grilla-posiciones tbody tr:nth-child(even) td {
+    background-color: #f8f9fa !important;
+}
+
+.grilla-posiciones tbody tr:hover td {
+    background-color: #fff3cd !important;
+}
+
+/* Celda de puntaje destacada (última columna) */
+.grilla-posiciones tbody td:last-child {
+    font-weight: 700;
+    color: #1f4d2e;
+    background-color: #fff8e1 !important;
+}
+
+/* Card AdminLTE para la grilla */
+.card.card-primary {
+    border-top: 3px solid #c9a227;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card.card-primary .card-header {
+    background-color: #1f4d2e;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    padding: 0.75rem 1rem;
+}
+
+.card.card-primary .card-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* ---------- Responsive: ajuste en celular (Opción 1: sin scroll) ---------- */
+@media (max-width: 575.98px) {
+    .master2-main { padding: 0.75rem 0.5rem 1rem; }
+    .grilla-posiciones { min-width: 0; font-size: 0.75rem; }
+    .grilla-posiciones thead th,
+    .grilla-posiciones tbody td {
+        padding: 0.35rem 0.25rem !important;
+        font-size: 0.75rem;
+        white-space: nowrap;
+    }
+    .grilla-posiciones tbody td:nth-child(2) { max-width: 110px; font-size: 0.75rem; }
+    .grilla-posiciones thead th { font-size: 0.65rem; }
+    .card.card-primary .card-title { font-size: 0.9rem; }
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 991.98px) {
+    .navbar-master2 .navbar-nav .nav-link {
+        margin: 0.2rem 0;
+        padding: 0.55rem 0.75rem;
+    }
+
+    .navbar-master2 .dropdown-menu {
+        box-shadow: none;
+        border: 1px solid #e5e5e5;
+        margin: 0.25rem 0 0.5rem;
+    }
+}
