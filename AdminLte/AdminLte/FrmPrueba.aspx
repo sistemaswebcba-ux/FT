@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="HeaderContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container-fluid">
+    <div class="container-fluid mt-3">
         <div class="card card-primary">
             <div class="card-header">
                 <h3 class="card-title">Tabla de Posiciones</h3>

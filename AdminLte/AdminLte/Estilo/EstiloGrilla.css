@@ -1,10 +1,13 @@
 .container-grid {
   width: 100%;
+  max-width: 100%;
   margin: 20px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   border: 1px solid #e0e0e0;
   border-radius: 4px;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Estilo base de la tabla */
@@ -65,4 +68,35 @@
   padding-top: 3px !important; /* Altura mínima arriba */
   padding-bottom: 3px !important; /* Altura mínima abajo */
   text-align: left !important; /* Alineado a la izquierda */
+}
+
+/* Responsive móvil: scroll horizontal interno como FrmPrueba */
+@media (max-width: 575.98px) {
+  .container-grid { margin: 0; }
+  .table-custom.grilla-compacta {
+    width: max-content;
+    min-width: 100%;
+    max-width: none;
+    font-size: 0.72rem;
+    table-layout: auto;
+  }
+  .table-custom.grilla-compacta th,
+  .table-custom.grilla-compacta td {
+    padding: 0.3rem 0.25rem !important;
+    font-size: 0.72rem;
+    white-space: nowrap;
+  }
+  .table-custom.grilla-compacta tbody td:nth-child(3),
+  .table-custom.grilla-compacta tr td:nth-child(3) {
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .table-custom.grilla-compacta thead th,
+  .table-custom.grilla-compacta tr:first-child th {
+    font-size: 0.62rem;
+    padding: 0.35rem 0.25rem !important;
+    white-space: nowrap;
+  }
 }
