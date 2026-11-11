@@ -30,9 +30,9 @@
                                     Primera Division
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Tabla Anual</a></li>
-                                    <li><a class="dropdown-item" href="#">Locales</a></li>
-                                    <li><a class="dropdown-item" href="#">Visitantes</a></li>
+                                    <li><a class="dropdown-item" href="FrmTabla.aspx?Id=2&t=a">Tabla Anual</a></li>
+                                    <li><a class="dropdown-item" href="FrmTabla.aspx?Id=2&t=l">Tabla Locales</a></li>
+                                    <li><a class="dropdown-item" href="FrmTabla.aspx?Id=2&t=v">Tabla Visitantes</a></li>
                                     <li><a class="dropdown-item" href="#">Promedio</a></li>
                                 </ul>
                             </li>
