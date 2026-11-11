@@ -205,6 +205,8 @@
     <Content Include="Estilo\Estilo2.css" />
     <Content Include="Estilo\EstiloGrilla.css" />
     <Content Include="FrmEquipos.aspx" />
+    <Content Include="FrmFechas.aspx" />
+    <Content Include="FrmFechasaspx.aspx" />
     <Content Include="FrmInfo.aspx" />
     <Content Include="FrmLocalVisitante.aspx" />
     <Content Include="FrmPrueba.aspx" />
@@ -460,6 +462,20 @@
     </Compile>
     <Compile Include="FrmEquipos.aspx.designer.cs">
       <DependentUpon>FrmEquipos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFechas.aspx.cs">
+      <DependentUpon>FrmFechas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmFechas.aspx.designer.cs">
+      <DependentUpon>FrmFechas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFechasaspx.aspx.cs">
+      <DependentUpon>FrmFechasaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmFechasaspx.aspx.designer.cs">
+      <DependentUpon>FrmFechasaspx.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmInfo.aspx.cs">
       <DependentUpon>FrmInfo.aspx</DependentUpon>

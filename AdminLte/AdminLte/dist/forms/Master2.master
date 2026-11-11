@@ -33,7 +33,7 @@
                                     <li><a class="dropdown-item" href="FrmTabla.aspx?Id=2&t=a">Tabla Anual</a></li>
                                     <li><a class="dropdown-item" href="FrmTabla.aspx?Id=2&t=l">Tabla Locales</a></li>
                                     <li><a class="dropdown-item" href="FrmTabla.aspx?Id=2&t=v">Tabla Visitantes</a></li>
-                                    <li><a class="dropdown-item" href="#">Promedio</a></li>
+                                    <li><a class="dropdown-item" href="FrmFechas.aspx?Id=2">Entre Fechas</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">

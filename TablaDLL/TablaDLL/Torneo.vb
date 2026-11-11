@@ -57,6 +57,18 @@ Public Class Torneo
 
     End Function
 
+    Public Function GetMaxFecha(IdTorneo As Integer
+                                ) As Integer
+        Dim sql As String
+        sql = "select  isnull(max(fecha),0) as Fecha  "
+        sql = sql + " from fixture f where f.IdTorneo=" + IdTorneo.ToString()
+        Dim t As DataTable
+        t = SqlHelper.ExecuteDataset(cad, CommandType.Text, sql).Tables(0)
+        Return Convert.ToInt32(t.Rows(0)("Fecha"))
+    End Function
+
+
+
 
 
 End Class
