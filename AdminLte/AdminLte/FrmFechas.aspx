@@ -11,16 +11,16 @@
               <asp:Label ID="lblTorneo" runat="server" Text="Label"></asp:Label></h3>
         </div>
         <div class="card-body">
-            <div class="d-flex align-items-center flex-nowrap mb-3">
-                <div class="d-flex align-items-center" style="margin-right: 20px;">
+            <div class="d-flex align-items-center flex-wrap mb-3">
+                <div class="d-flex align-items-center mb-2 mb-md-0" style="margin-right: 20px;">
                     <label for="CmbFechaDesde" class="mb-0" style="margin-right: 8px;">Fecha Desde</label>
                     <asp:DropDownList ID="CmbFechaDesde" runat="server" CssClass="form-control" Width="80px"></asp:DropDownList>
                 </div>
-                <div class="d-flex align-items-center" style="margin-right: 20px;">
+                <div class="d-flex align-items-center mb-2 mb-md-0" style="margin-right: 20px;">
                     <label for="CmbFechaHasta" class="mb-0" style="margin-right: 8px;">Fecha Hasta</label>
                     <asp:DropDownList ID="CmbFechaHasta" runat="server" CssClass="form-control" Width="80px"></asp:DropDownList>
                 </div>
-                <div>
+                <div class="mb-2 mb-md-0">
                     <asp:Button ID="btnBuscar" runat="server" Text="Buscar" CssClass="btn btn-primary" OnClick="btnBuscar_Click" />
                 </div>
             </div>

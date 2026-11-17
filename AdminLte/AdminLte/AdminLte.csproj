@@ -210,6 +210,7 @@
     <Content Include="FrmInfo.aspx" />
     <Content Include="FrmLocalVisitante.aspx" />
     <Content Include="FrmPrueba.aspx" />
+    <Content Include="FrmSubTorneo.aspx" />
     <Content Include="FrmTabla.aspx" />
     <Content Include="FrmTablaAnual.aspx" />
     <Content Include="Imagen\Acassuso.jpg" />
@@ -497,6 +498,13 @@
     </Compile>
     <Compile Include="FrmPrueba.aspx.designer.cs">
       <DependentUpon>FrmPrueba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSubTorneo.aspx.cs">
+      <DependentUpon>FrmSubTorneo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmSubTorneo.aspx.designer.cs">
+      <DependentUpon>FrmSubTorneo.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmTabla.aspx.cs">
       <DependentUpon>FrmTabla.aspx</DependentUpon>
