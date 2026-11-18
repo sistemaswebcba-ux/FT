@@ -53,14 +53,13 @@
             </asp:GridView>
           </div>
           <div class="tab-pane fade" id="content-tabla" role="tabpanel" aria-labelledby="tab-tabla" tabindex="0">
-            <p class="mb-0">
-
+            <div class="table-responsive">
               <asp:GridView ID="Grilla2" runat="server"
                 CssClass="table table-bordered table-hover table-striped mb-0 grilla-posiciones"
                 GridLines="None"
                 OnRowDataBound="Grilla2_RowDataBound">
               </asp:GridView>
-            </p>
+            </div>
           </div>
           <div class="tab-pane fade" id="content-resultados" role="tabpanel" aria-labelledby="tab-resultados" tabindex="0">
             <p class="mb-0">Contenido de Resultados.</p>

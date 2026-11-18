@@ -81,7 +81,29 @@ namespace AdminLte
     {
       if (e.Row.RowType == DataControlRowType.DataRow || e.Row.RowType == DataControlRowType.Header)
       {
-        e.Row.Cells[1].Visible = false;
+        // Ocultar IdEquipo (columna 1)
+        if (e.Row.Cells.Count > 1)
+          e.Row.Cells[1].Visible = false;
+
+        // Alinear a la izquierda la columna EQUIPO (encabezado y celdas)
+        for (int i = 0; i < e.Row.Cells.Count; i++)
+        {
+          string headerText = "";
+          if (e.Row.RowType == DataControlRowType.Header)
+          {
+            headerText = e.Row.Cells[i].Text.ToLower();
+          }
+          else if (Grilla.HeaderRow != null && Grilla.HeaderRow.Cells.Count > i)
+          {
+            headerText = Grilla.HeaderRow.Cells[i].Text.ToLower();
+          }
+
+          if (headerText.Contains("equipo") && headerText != "idequipo")
+          {
+            e.Row.Cells[i].HorizontalAlign = HorizontalAlign.Left;
+            e.Row.Cells[i].Style["text-align"] = "left";
+          }
+        }
       }
     }
   }
