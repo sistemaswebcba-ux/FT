@@ -208,15 +208,18 @@
     <Content Include="FrmFechas.aspx" />
     <Content Include="FrmFechasaspx.aspx" />
     <Content Include="FrmInfo.aspx" />
+    <Content Include="FrmInfoxEquipo.aspx" />
     <Content Include="FrmLocalVisitante.aspx" />
     <Content Include="FrmPrueba.aspx" />
     <Content Include="FrmSubTorneo.aspx" />
     <Content Include="FrmTabla.aspx" />
     <Content Include="FrmTablaAnual.aspx" />
+    <Content Include="Imagen\1.png" />
     <Content Include="Imagen\Acassuso.jpg" />
     <Content Include="Imagen\afa.jpg" />
     <Content Include="Imagen\Agropecuario.jpg" />
     <Content Include="Imagen\Aldosivi.jpg" />
+    <Content Include="Imagen\Aldosivi.png" />
     <Content Include="Imagen\AllBoys.jpg" />
     <Content Include="Imagen\Almagro.jpg" />
     <Content Include="Imagen\Alumni.jpg" />
@@ -225,20 +228,26 @@
     <Content Include="Imagen\Argentina.jpg" />
     <Content Include="Imagen\ArgentinoA.jpg" />
     <Content Include="Imagen\Argentinos.jpg" />
+    <Content Include="Imagen\Argentinos.png" />
     <Content Include="Imagen\Armenio.jpg" />
     <Content Include="Imagen\Arsenal.jpg" />
     <Content Include="Imagen\Atlanta.jpg" />
+    <Content Include="Imagen\Atletico.png" />
     <Content Include="Imagen\AtleticoParana.jpg" />
     <Content Include="Imagen\AtleticoRafaela.jpg" />
     <Content Include="Imagen\AtleticoTucuman.jpg" />
     <Content Include="Imagen\azul.jpg" />
     <Content Include="Imagen\Bandera.jpg" />
     <Content Include="Imagen\Banfield.jpg" />
+    <Content Include="Imagen\Banfield.png" />
     <Content Include="Imagen\Barra.jpg" />
     <Content Include="Imagen\Barracas.jpg" />
+    <Content Include="Imagen\Barracas.png" />
     <Content Include="Imagen\Belgrano.jpg" />
+    <Content Include="Imagen\Belgrano.png" />
     <Content Include="Imagen\bnacional.jpg" />
     <Content Include="Imagen\boca.jpg" />
+    <Content Include="Imagen\Boca.png" />
     <Content Include="Imagen\BocaUnidos.jpg" />
     <Content Include="Imagen\Bolivia.jpg" />
     <Content Include="Imagen\Brasil.jpg" />
@@ -246,7 +255,9 @@
     <Content Include="Imagen\BrownAdrogue.jpg" />
     <Content Include="Imagen\cai.jpg" />
     <Content Include="Imagen\Central.jpg" />
+    <Content Include="Imagen\Central.png" />
     <Content Include="Imagen\CentralCordoba.jpg" />
+    <Content Include="Imagen\CentralCordoba.png" />
     <Content Include="Imagen\CentralCordobaRosario.jpg" />
     <Content Include="Imagen\CentralNorte.jpg" />
     <Content Include="Imagen\Chacarita.jpg" />
@@ -258,6 +269,7 @@
     <Content Include="Imagen\Comunicaciones.jpg" />
     <Content Include="Imagen\Crucero.jpg" />
     <Content Include="Imagen\Defensa.jpg" />
+    <Content Include="Imagen\Defensa.png" />
     <Content Include="Imagen\Defensoresbelgrano.jpg" />
     <Content Include="Imagen\DefensoresVillaRamallo.jpg" />
     <Content Include="Imagen\Desamparados.jpg" />
@@ -265,8 +277,10 @@
     <Content Include="Imagen\Douglas.gif" />
     <Content Include="Imagen\Ecuador.jpg" />
     <Content Include="Imagen\Estudiantes.jpg" />
+    <Content Include="Imagen\Estudiantes.png" />
     <Content Include="Imagen\Estudiantesba.jpg" />
     <Content Include="Imagen\EstudiantesRio4.jpg" />
+    <Content Include="Imagen\EstudiantesRio4.png" />
     <Content Include="Imagen\EstudiantesSanLuis.jpg" />
     <Content Include="Imagen\Ferro.jpg" />
     <Content Include="Imagen\Flandria.jpg" />
@@ -275,18 +289,22 @@
     <Content Include="Imagen\flecha2.jpg" />
     <Content Include="Imagen\FONDO.jpg" />
     <Content Include="Imagen\futboldeprimera.jpg" />
+    <Content Include="Imagen\Gimnasia.png" />
     <Content Include="Imagen\Gimnasiacu.jpg" />
     <Content Include="Imagen\GimnasiaJujuy.jpg" />
     <Content Include="Imagen\GimnasiaLaPlata.jpg" />
     <Content Include="Imagen\GimnasiaMendoza.jpg" />
+    <Content Include="Imagen\GimnasiaMza.png" />
     <Content Include="Imagen\GimnasiayTiro.jpg" />
     <Content Include="Imagen\GodoyCruz.jpg" />
     <Content Include="Imagen\Guarani.jpg" />
     <Content Include="Imagen\GuillermoBrown.jpg" />
     <Content Include="Imagen\Huracan.jpg" />
+    <Content Include="Imagen\Huracan.png" />
     <Content Include="Imagen\HuracanTA.jpg" />
     <Content Include="Imagen\IACC.jpg" />
     <Content Include="Imagen\Independiente.jpg" />
+    <Content Include="Imagen\Independiente.png" />
     <Content Include="Imagen\IndependienteRivadavia.jpg" />
     <Content Include="Imagen\instituto.gif" />
     <Content Include="Imagen\Instituto.jpg" />
@@ -295,6 +313,7 @@
     <Content Include="Imagen\JuventudUnidaGualeguaychu.jpg" />
     <Content Include="Imagen\Lamadrid.jpg" />
     <Content Include="Imagen\Lanus.jpg" />
+    <Content Include="Imagen\Lanus.png" />
     <Content Include="Imagen\Lateral.jpg" />
     <Content Include="Imagen\Libertad.jpg" />
     <Content Include="Imagen\logonacionalb.JPG" />
@@ -302,6 +321,7 @@
     <Content Include="Imagen\Maipu.jpg" />
     <Content Include="Imagen\Merlo.jpg" />
     <Content Include="Imagen\Moron.jpg" />
+    <Content Include="Imagen\Newell.png" />
     <Content Include="Imagen\Newells.jpg" />
     <Content Include="Imagen\NuevaChicago.jpg" />
     <Content Include="Imagen\Olimpo.jpg" />
@@ -310,33 +330,43 @@
     <Content Include="Imagen\pelota.jpg" />
     <Content Include="Imagen\Peru.jpg" />
     <Content Include="Imagen\Platense.jpg" />
+    <Content Include="Imagen\Platense.png" />
     <Content Include="Imagen\primerabmetro.jpg" />
     <Content Include="Imagen\Quilmes.jpg" />
     <Content Include="Imagen\Racing.jpg" />
+    <Content Include="Imagen\Racing.png" />
     <Content Include="Imagen\RacingCba.jpg" />
     <Content Include="Imagen\Racingolavarria.jpg" />
     <Content Include="Imagen\Riestra.jpg" />
     <Content Include="Imagen\Rivadavia.jpg" />
+    <Content Include="Imagen\Rivadavia.png" />
     <Content Include="Imagen\River.jpg" />
+    <Content Include="Imagen\River.png" />
     <Content Include="Imagen\RosarioCentral.jpg" />
     <Content Include="Imagen\SanJorge.jpg" />
     <Content Include="Imagen\SanLorenzo.jpg" />
+    <Content Include="Imagen\SanLorenzo.png" />
     <Content Include="Imagen\SanMartinSj.jpg" />
     <Content Include="Imagen\SanMartinTuc.jpg" />
     <Content Include="Imagen\Santamarina.jpg" />
     <Content Include="Imagen\SanTelmo.jpg" />
     <Content Include="Imagen\Sarmiento.jpg" />
+    <Content Include="Imagen\Sarmiento.png" />
     <Content Include="Imagen\SportivoBelgrano.jpg" />
     <Content Include="Imagen\Talleres.jpg" />
+    <Content Include="Imagen\Talleres.png" />
     <Content Include="Imagen\Temperley.jpg" />
     <Content Include="Imagen\Tigre.jpg" />
+    <Content Include="Imagen\Tigre.png" />
     <Content Include="Imagen\TiroFederal.jpg" />
     <Content Include="Imagen\TristanSuarez.jpg" />
     <Content Include="Imagen\Union.jpg" />
+    <Content Include="Imagen\Union.png" />
     <Content Include="Imagen\UnionMardelPlata.jpg" />
     <Content Include="Imagen\UnionSunchales.jpg" />
     <Content Include="Imagen\Uruguay.jpg" />
     <Content Include="Imagen\Velez.jpg" />
+    <Content Include="Imagen\Velez.png" />
     <Content Include="Imagen\Venezuela.jpg" />
     <Content Include="Imagen\VillaDalmine.jpg" />
     <Content Include="index.html" />
@@ -484,6 +514,13 @@
     </Compile>
     <Compile Include="FrmInfo.aspx.designer.cs">
       <DependentUpon>FrmInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInfoxEquipo.aspx.cs">
+      <DependentUpon>FrmInfoxEquipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmInfoxEquipo.aspx.designer.cs">
+      <DependentUpon>FrmInfoxEquipo.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmLocalVisitante.aspx.cs">
       <DependentUpon>FrmLocalVisitante.aspx</DependentUpon>

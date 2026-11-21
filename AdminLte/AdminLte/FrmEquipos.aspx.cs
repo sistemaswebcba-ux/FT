@@ -158,9 +158,9 @@ namespace AdminLte
     protected void Img17_Click(object sender, ImageClickEventArgs e)
     {   // Dim idEq As String = Img1.CommandArgument.ToString()
       string Temp = Request.QueryString["Temp"].ToString();
-     
       string IdEquipo = Img17.CommandArgument.ToString();
-      string Pagina = "FrmInfo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp;
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
       Response.Redirect(Pagina);
     }
 
@@ -168,7 +168,8 @@ namespace AdminLte
     {
       string Temp = Request.QueryString["Temp"].ToString();
       string IdEquipo = Img6.CommandArgument.ToString();
-      string Pagina = "FrmInfo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp;
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
       Response.Redirect(Pagina);
     }
   }

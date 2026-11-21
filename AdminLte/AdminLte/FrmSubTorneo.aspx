@@ -62,7 +62,43 @@
             </div>
           </div>
           <div class="tab-pane fade" id="content-resultados" role="tabpanel" aria-labelledby="tab-resultados" tabindex="0">
-            <p class="mb-0">Contenido de Resultados.</p>
+            <p class="mb-0">
+              Contenido de Resultados.
+              
+              <div class="table-responsive">
+                <asp:GridView ID="Grilla3" runat="server"
+                  CssClass="table table-bordered table-hover table-striped mb-0 grilla-posiciones"
+                  GridLines="None"
+                  AutoGenerateColumns="False"
+                  OnRowDataBound="Grilla3_RowDataBound">
+                  <Columns>
+                    <asp:BoundField DataField="fecha" HeaderText="Fecha" ShowHeader="False">
+                      <HeaderStyle HorizontalAlign="Left" />
+                      <ItemStyle Width="30px" />
+                    </asp:BoundField>
+
+                    <asp:BoundField DataField="local" HeaderText="Local">
+                      <HeaderStyle HorizontalAlign="Left" Width="150px" />
+                      <ItemStyle HorizontalAlign="Left" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="gl">
+                      <HeaderStyle Width="50px" HorizontalAlign="Left" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="gv">
+                      <HeaderStyle Width="50px" HorizontalAlign="Right" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="visitante" HeaderText="Visitante">
+                      <HeaderStyle HorizontalAlign="Left" Width="150px" />
+
+                    </asp:BoundField>
+                    <asp:BoundField DataField="fechapartido" HeaderText="Dia">
+                      <HeaderStyle HorizontalAlign="Left" />
+                      <ItemStyle Width="80px" />
+                    </asp:BoundField>
+                  </Columns>
+                </asp:GridView>
+              </div>
+            </p>
           </div>
         </div>
       </div>

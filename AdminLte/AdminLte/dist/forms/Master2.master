@@ -35,6 +35,7 @@
                                     <li><a class="dropdown-item" href="FrmTabla.aspx?Id=2&t=v">Tabla Visitantes</a></li>
                                     <li><a class="dropdown-item" href="FrmFechas.aspx?Id=2">Entre Fechas</a></li>
                                     <li><a class="dropdown-item" href="FrmSubTorneo.aspx?Id=2">Sub Torneo</a></li>
+                                   <li><a class="dropdown-item" href="FrmEquipos.aspx?Cat=1&Temp=2026&Id=2">Equipos</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
