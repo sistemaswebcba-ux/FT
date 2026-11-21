@@ -1367,4 +1367,208 @@ Public Class Tabla
         Return tl
     End Function
 
+    Public Function GetResumenLocal(IdTorneo As Integer, IdEquipo As Integer) As DataTable
+
+        Dim i As Integer
+        Dim obj As New Resumen()
+        Dim tbLocal As New DataTable
+        tbLocal = obj.GetResumenxEquipoLocal(IdEquipo, IdTorneo)
+        Dim tb As New DataTable
+        tb.Columns.Add("RESULTADO")
+        tb.Columns.Add("FRECUENCIA")
+        tb.Columns.Add("VEP")
+        tb.Columns.Add("POR")
+        Dim vep As String = ""
+        Dim gf, gc, dif As Integer
+        Dim totalPartidos As Integer = 0
+        Dim por As Double = 0
+        Dim can As Integer = 0
+        For i = 0 To tbLocal.Rows.Count - 1
+            totalPartidos = totalPartidos + Convert.ToInt32(tbLocal.Rows(i)("can").ToString())
+        Next
+        For i = 0 To tbLocal.Rows.Count - 1
+            Dim r As DataRow
+            r = tb.NewRow
+            gf = Convert.ToInt32(tbLocal.Rows(i)("gl").ToString())
+            gc = Convert.ToInt32(tbLocal.Rows(i)("gv").ToString())
+            dif = gf - gc
+            r(0) = tbLocal.Rows(i)("gl").ToString() + "-" + tbLocal.Rows(i)("gv").ToString()
+            r(1) = tbLocal.Rows(i)("can").ToString()
+            can = Convert.ToInt32(tbLocal.Rows(i)("can").ToString())
+            If dif = 0 Then
+                vep = "Empate"
+            End If
+            If dif > 0 Then
+                vep = "Ganó"
+            End If
+            If dif < 0 Then
+                vep = "Perdío"
+            End If
+            r(2) = vep
+            por = (can / totalPartidos * 100)
+            por = System.Math.Round(por, 2)
+            r(3) = Convert.ToInt32(por)
+            tb.Rows.Add(r)
+        Next
+        Return tb
+    End Function
+
+    Public Function GetResumenVisitante(IdTorneo As Integer, IdEquipo As Integer) As DataTable
+        Dim obj As New Resumen()
+        Dim gf, gc, dif, i As Integer
+        Dim totalPartidos As Integer = 0
+        Dim por As Double = 0
+        Dim can As Integer = 0
+        Dim vep As String = ""
+        Dim tbVisitantes As New DataTable
+        tbVisitantes = obj.GetResumenxEquipoVisitante(IdEquipo, IdTorneo)
+
+        Dim tb2 As New DataTable
+        tb2.Columns.Add("RESULTADO")
+        tb2.Columns.Add("FRECUENCIA")
+        tb2.Columns.Add("VEP")
+        tb2.Columns.Add("POR")
+        totalPartidos = 0
+        For i = 0 To tbVisitantes.Rows.Count - 1
+            totalPartidos = totalPartidos + Convert.ToInt32(tbVisitantes.Rows(i)("can").ToString())
+        Next
+        For i = 0 To tbVisitantes.Rows.Count - 1
+            Dim r As DataRow
+            r = tb2.NewRow
+            gf = Convert.ToInt32(tbVisitantes.Rows(i)("gl").ToString())
+            GC = Convert.ToInt32(tbVisitantes.Rows(i)("gv").ToString())
+            dif = gf - GC
+            r(0) = tbVisitantes.Rows(i)("gl").ToString() + "-" + tbVisitantes.Rows(i)("gv").ToString()
+            r(1) = tbVisitantes.Rows(i)("can").ToString()
+            If dif = 0 Then
+                vep = "Empate"
+            End If
+            If dif > 0 Then
+                vep = "Perdió"
+            End If
+            If dif < 0 Then
+                vep = "Ganó"
+            End If
+            can = Convert.ToInt32(tbVisitantes.Rows(i)("can").ToString())
+            r(2) = vep
+            por = (can / totalPartidos * 100)
+            por = System.Math.Round(por, 2)
+            r(3) = por
+            tb2.Rows.Add(r)
+        Next
+        Return tb2
+
+    End Function
+
+    Public Function GetResumenGeneral(tbLocal As DataTable, tbVisitante As DataTable) As DataView
+        Dim gl, gv, gl2, gv2, can, can2 As Integer
+        Dim i, j, dif As Integer
+        Dim ban As Integer = 0
+        Dim vep As String
+        dif = 0
+        Dim tbresumen As New DataTable
+        tbresumen.Columns.Add("RESULTADO")
+        tbresumen.Columns.Add("FRECUENCIA")
+        tbresumen.Columns.Add("VEP")
+        tbresumen.Columns.Add("POR")
+        For i = 0 To tbLocal.Rows.Count - 1
+            gl = Convert.ToInt32(tbLocal.Rows(i)("gl"))
+            gv = Convert.ToInt32(tbLocal.Rows(i)("gv"))
+            can = Convert.ToInt32(tbLocal.Rows(i)("can"))
+            For j = 0 To tbVisitante.Rows.Count - 1
+                gl2 = Convert.ToInt32(tbVisitante.Rows(j)("gl"))
+                gv2 = Convert.ToInt32(tbVisitante.Rows(j)("gv"))
+                can2 = Convert.ToInt32(tbVisitante.Rows(j)("can"))
+
+                If gl = gv2 And gv = gl2 Then
+                    Dim r As DataRow
+                    r = tbresumen.NewRow
+                    r(0) = (gl.ToString() + " - " + gv.ToString()).ToString()
+                    r(1) = (can + can2).ToString()
+                    dif = gl - gv
+                    If dif = 0 Then
+                        vep = "Empate"
+                    End If
+                    If dif > 0 Then
+                        vep = "Ganó"
+                    End If
+                    If dif < 0 Then
+                        vep = "Perdió"
+                    End If
+                    r(2) = vep
+                    tbresumen.Rows.Add(r)
+                    ban = 1
+                End If
+            Next
+            If ban = 0 Then
+                Dim r As DataRow
+                r = tbresumen.NewRow
+                r(0) = (gl.ToString() + " - " + gv.ToString()).ToString()
+                r(1) = (can).ToString()
+                dif = gl - gv
+                If dif = 0 Then
+                    vep = "Empate"
+                End If
+                If dif > 0 Then
+                    vep = "Ganó"
+                End If
+                If dif < 0 Then
+                    vep = "Perdió"
+                End If
+                r(2) = vep
+                r(3) = 10
+                tbresumen.Rows.Add(r)
+            End If
+            ban = 0
+        Next
+        For j = 0 To tbVisitante.Rows.Count - 1
+            ban = 0
+            gl2 = Convert.ToInt32(tbVisitante.Rows(j)("gl"))
+            gv2 = Convert.ToInt32(tbVisitante.Rows(j)("gv"))
+            can2 = Convert.ToInt32(tbVisitante.Rows(j)("can"))
+            For i = 0 To tbLocal.Rows.Count - 1
+                gl = Convert.ToInt32(tbLocal.Rows(i)("gl").ToString())
+                gv = Convert.ToInt32(tbLocal.Rows(i)("gv").ToString())
+                If gl = gv2 And gv = gl2 Then
+                    ban = 1
+                End If
+            Next
+            If ban = 0 Then
+                Dim r As DataRow
+                r = tbresumen.NewRow
+                r(0) = (gl2.ToString() + " - " + gv2.ToString()).ToString()
+                r(1) = (can2).ToString()
+                dif = gl2 - gv2
+                If dif = 0 Then
+                    vep = "Empate"
+                End If
+                If dif > 0 Then
+                    vep = "Perdió"
+                End If
+                If dif < 0 Then
+                    vep = "Ganó"
+                End If
+                r(2) = vep
+                r(3) = 25
+                tbresumen.Rows.Add(r)
+            End If
+        Next
+        Dim totalPartidos As Integer = 0
+        Dim por As Double = 0
+        For i = 0 To tbresumen.Rows.Count - 1
+            totalPartidos = totalPartidos + Convert.ToInt32(tbresumen.Rows(i)("FRECUENCIA").ToString())
+        Next
+
+        For i = 0 To tbresumen.Rows.Count - 1
+            can = Convert.ToInt32(tbresumen.Rows(i)("FRECUENCIA"))
+            por = can / totalPartidos * 100
+            tbresumen.Rows(i)("POR") = Convert.ToInt32(por)
+        Next
+        Dim dv As New DataView
+        dv = tbresumen.DefaultView
+        dv.Sort = "FRECUENCIA desc"
+        Return dv
+    End Function
+
+
 End Class

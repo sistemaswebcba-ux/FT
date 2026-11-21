@@ -15,13 +15,13 @@ namespace AdminLte
     {
 
         /// <summary>
-        /// Control Grilla.
+        /// Control ImgEquipo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView Grilla;
+        protected global::System.Web.UI.WebControls.Image ImgEquipo;
 
         /// <summary>
         /// Control lblEquipo.
@@ -33,12 +33,39 @@ namespace AdminLte
         protected global::System.Web.UI.WebControls.Label lblEquipo;
 
         /// <summary>
-        /// Control ImgEquipo.
+        /// Control Grilla.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImgEquipo;
+        protected global::System.Web.UI.WebControls.GridView Grilla;
+
+        /// <summary>
+        /// Control GrillaGeneral.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GrillaGeneral;
+
+        /// <summary>
+        /// Control GrillaLocal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GrillaLocal;
+
+        /// <summary>
+        /// Control GrillaVisitantes.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GrillaVisitantes;
     }
 }
