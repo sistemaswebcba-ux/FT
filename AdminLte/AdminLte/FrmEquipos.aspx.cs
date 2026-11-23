@@ -18,7 +18,7 @@ namespace AdminLte
         int Categoria = Convert.ToInt32(Request.QueryString["Cat"].ToString());
         CargarEquipos(Categoria);
       }
-      
+
     }
 
     private void CargarEquipos(Int32 Categoria)
@@ -168,6 +168,258 @@ namespace AdminLte
     {
       string Temp = Request.QueryString["Temp"].ToString();
       string IdEquipo = Img6.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img1_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img1.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img2_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img2.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img3_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img3.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img4_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img4.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img5_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img5.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img7_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img7.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img8_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img8.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img9_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img9.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img10_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img10.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img11_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img11.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img12_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img12.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img13_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img13.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img14_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img14.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img15_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img15.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img16_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img16.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img18_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img18.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img19_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img19.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img20_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img20.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img21_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img21.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img22_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img22.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img23_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img23.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img24_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img24.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img25_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img25.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img26_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img26.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img27_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img27.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img28_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img28.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img29_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img29.CommandArgument.ToString();
+      string IdTorneo = Request.QueryString["Id"].ToString();
+      string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
+      Response.Redirect(Pagina);
+    }
+
+    protected void Img30_Click(object sender, ImageClickEventArgs e)
+    {
+      string Temp = Request.QueryString["Temp"].ToString();
+      string IdEquipo = Img30.CommandArgument.ToString();
       string IdTorneo = Request.QueryString["Id"].ToString();
       string Pagina = "FrmInfoxEquipo.aspx?IdEquipo=" + IdEquipo.ToString() + "&Temp=" + Temp + "&IdTorneo=" + IdTorneo;
       Response.Redirect(Pagina);

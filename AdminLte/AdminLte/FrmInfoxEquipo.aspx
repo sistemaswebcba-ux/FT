@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/dist/forms/Master2.master" AutoEventWireup="true" CodeBehind="FrmInfoxEquipo.aspx.cs" Inherits="AdminLte.FrmInfoxEquipo" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/dist/forms/Master2.master" AutoEventWireup="true" CodeBehind="FrmInfoxEquipo.aspx.cs" Inherits="AdminLte.FrmInfoxEquipo" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="HeaderContent" runat="server">
@@ -19,7 +20,7 @@
             <button class="nav-link" id="tab-local" data-bs-toggle="tab" data-bs-target="#content-local" type="button" role="tab" aria-controls="content-local" aria-selected="false">Frecuencia</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="tab-visitante" data-bs-toggle="tab" data-bs-target="#content-visitante" type="button" role="tab" aria-controls="content-visitante" aria-selected="false">Visitante</button>
+            <button class="nav-link" id="tab-visitante" data-bs-toggle="tab" data-bs-target="#content-visitante" type="button" role="tab" aria-controls="content-visitante" aria-selected="false">Partidos</button>
           </li>
         </ul>
       </div>
@@ -32,7 +33,7 @@
                 GridLines="None"
                 AutoGenerateColumns="False">
                 <Columns>
-                <asp:BoundField DataField="condicion" HeaderText="Condición">
+                  <asp:BoundField DataField="condicion" HeaderText="Condición">
                     <HeaderStyle HorizontalAlign="Left" CssClass="text-start" />
                     <ItemStyle HorizontalAlign="Left" CssClass="text-start" />
                   </asp:BoundField>
@@ -52,19 +53,52 @@
             <div class="d-flex flex-wrap gap-3">
               <div class="table-responsive flex-grow-1">
                 <h5 class="mt-0 mb-2 text-center">General</h5>
-                <asp:GridView ID="GrillaGeneral" runat="server" CssClass="table table-bordered table-hover table-striped mb-0 grilla-posiciones"></asp:GridView>
+                <asp:GridView ID="GrillaGeneral" runat="server" CssClass="table table-bordered table-hover table-striped mb-0 grilla-posiciones" AutoGenerateColumns="False">
+                  <Columns>
+                    <asp:BoundField DataField="RESULTADO" HeaderText="RESULTADO" />
+                    <asp:BoundField DataField="FRECUENCIA" HeaderText="FRECUENCIA" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Center" />
+                    <asp:BoundField DataField="VEP" HeaderText="VEP" />
+                    <asp:BoundField DataField="%" HeaderText="%" />
+                  </Columns>
+                </asp:GridView>
               </div>
               <div class="table-responsive flex-grow-1">
                 <h5 class="mt-0 mb-2 text-center">Local</h5>
-                <asp:GridView ID="GrillaLocal" runat="server" CssClass="table table-bordered table-hover table-striped mb-0 grilla-posiciones"></asp:GridView>
+                <asp:GridView ID="GrillaLocal" runat="server" CssClass="table table-bordered table-hover table-striped mb-0 grilla-posiciones" AutoGenerateColumns="False">
+                  <Columns>
+                    <asp:BoundField DataField="RESULTADO" HeaderText="RESULTADO" />
+                    <asp:BoundField DataField="FRECUENCIA" HeaderText="FRECUENCIA" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Center" />
+                    <asp:BoundField DataField="VEP" HeaderText="VEP" />
+                    <asp:BoundField DataField="%" HeaderText="%" />
+                  </Columns>
+                </asp:GridView>
               </div>
               <div class="table-responsive flex-grow-1">
                 <h5 class="mt-0 mb-2 text-center">Visitante</h5>
-                <asp:GridView ID="GrillaVisitantes" runat="server" CssClass="table table-bordered table-hover table-striped mb-0 grilla-posiciones"></asp:GridView>
+                <asp:GridView ID="GrillaVisitantes" runat="server" CssClass="table table-bordered table-hover table-striped mb-0 grilla-posiciones" AutoGenerateColumns="False">
+                  <Columns>
+                    <asp:BoundField DataField="RESULTADO" HeaderText="RESULTADO" />
+                    <asp:BoundField DataField="FRECUENCIA" HeaderText="FRECUENCIA" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Center" />
+                    <asp:BoundField DataField="VEP" HeaderText="VEP" />
+                    <asp:BoundField DataField="%" HeaderText="%" />
+                  </Columns>
+                </asp:GridView>
               </div>
             </div>
           </div>
           <div class="tab-pane fade" id="content-visitante" role="tabpanel" aria-labelledby="tab-visitante" tabindex="0">
+            <div class="table-responsive">
+            <asp:GridView ID="GrillaPartidos" runat="server" CssClass="table table-bordered table-hover table-striped mb-0 grilla-posiciones" AutoGenerateColumns="False">
+              <Columns>
+                <asp:BoundField DataField="fecha" HeaderText="Fecha" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Center" />
+                <asp:BoundField DataField="Local" HeaderText="Local" ItemStyle-HorizontalAlign="Left" HeaderStyle-HorizontalAlign="Left" />
+                <asp:BoundField DataField="gl" HeaderText="gl" ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Center" />
+                <asp:BoundField DataField="gv" HeaderText="gv" />
+               <asp:BoundField DataField="visitante" HeaderText="Visitante" ItemStyle-HorizontalAlign="Left" HeaderStyle-HorizontalAlign="Left" />
+                  <asp:BoundField DataField="fechapartido" HeaderText="Fecha" />
+              </Columns>
+            </asp:GridView>
+            </div>
           </div>
         </div>
       </div>

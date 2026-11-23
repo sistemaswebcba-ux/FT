@@ -14,7 +14,7 @@ Public Class Conexion
         'cad = "Data Source=DESKTOP-PICJCLR\SQLEXPRESS;Initial Catalog=ft;Integrated Security=True"
 
         '   local sql 2022
-        '  cad = "Data Source=DESKTOP-PICJCLR\SQLEXPRESS01;Initial Catalog=CopiaFt;Integrated Security=True"
+        ' cad = "Data Source=DESKTOP-PICJCLR\SQLEXPRESS01;Initial Catalog=CopiaFt;Integrated Security=True"
         Return cad
     End Function
 
