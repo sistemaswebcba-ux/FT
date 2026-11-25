@@ -334,6 +334,7 @@
     <Content Include="Imagen\Lanus.jpg" />
     <Content Include="Imagen\Lanus.png" />
     <Content Include="Imagen\Lateral.jpg" />
+    <Content Include="Imagen\Left.ico" />
     <Content Include="Imagen\Libertad.jpg" />
     <Content Include="Imagen\logonacionalb.JPG" />
     <Content Include="Imagen\LosAndes.jpg" />
@@ -361,6 +362,7 @@
     <Content Include="Imagen\RacingCba.jpg" />
     <Content Include="Imagen\Racingolavarria.jpg" />
     <Content Include="Imagen\Riestra.jpg" />
+    <Content Include="Imagen\Right.ico" />
     <Content Include="Imagen\Rivadavia.jpg" />
     <Content Include="Imagen\Rivadavia.png" />
     <Content Include="Imagen\River.jpg" />

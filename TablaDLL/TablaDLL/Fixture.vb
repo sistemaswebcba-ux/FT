@@ -42,9 +42,9 @@ Public Class Fixture
         sql = sql + " and jugo=1"
         Dim fecha As Integer
         fecha = Convert.ToInt16(SqlHelper.ExecuteScalar(cad, CommandType.Text, sql))
-        If fecha > 0 Then
-            fecha = fecha - 1
-        End If
+        ' If fecha > 0 Then
+        ' fecha = fecha - 1
+        ' End If
         Return fecha
     End Function
 
@@ -178,4 +178,15 @@ Public Class Fixture
         Return can
     End Function
 
+    Public Function TotalFechas(ByVal idTorneo As Integer) As Integer
+        sql = "Select  isnull(max(fecha),0)"
+        sql = sql + " from Fixture"
+        sql = sql + " where idTorneo = " + idTorneo.ToString()
+        Dim fecha As Integer
+        fecha = Convert.ToInt16(SqlHelper.ExecuteScalar(cad, CommandType.Text, sql))
+        ' If fecha > 0 Then
+        ' fecha = fecha - 1
+        ' End If
+        Return fecha
+    End Function
 End Class

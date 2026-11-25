@@ -61,8 +61,6 @@ D:\PROGRAMACION 2\AdminLte\AdminLte\bin\TablaDLL.dll
 D:\PROGRAMACION 2\AdminLte\AdminLte\bin\Microsoft.ApplicationBlocks.Data.dll
 D:\PROGRAMACION 2\AdminLte\AdminLte\bin\TablaDLL.xml
 D:\PROGRAMACION 2\AdminLte\AdminLte\bin\TablaDLL.pdb
-D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.csproj.AssemblyReference.cache
-D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.csproj.CoreCompileInputs.cache
 D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\AdminLte.dll.config
 D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\AdminLte.dll
 D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\AdminLte.pdb
@@ -115,9 +113,11 @@ D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\roslyn\vbc.exe.config
 D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\roslyn\vbc.rsp
 D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\roslyn\VBCSCompiler.exe
 D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\roslyn\VBCSCompiler.exe.config
-D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.csproj.Up2Date
-D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.dll
-D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.pdb
 D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\TablaDLL.dll
 D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\TablaDLL.pdb
 D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\bin\TablaDLL.xml
+D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.csproj.AssemblyReference.cache
+D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.csproj.Up2Date
+D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.dll
+D:\PROGRAMACION 3\FT\FT\AdminLte\AdminLte\obj\Debug\AdminLte.pdb
