@@ -283,5 +283,14 @@ namespace AdminLte
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton Img30;
+
+        /// <summary>
+        /// Control lblTorno.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado autom�ticamente.
+        /// Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTorno;
     }
 }

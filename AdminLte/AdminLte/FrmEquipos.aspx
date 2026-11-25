@@ -2,6 +2,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="card card-primary">
+        <div class="card-header">
+            <h3 class="card-title">
+                <asp:Label ID="lblTorno" runat="server" />
+            </h3>
+        </div>
+    </div>
     <div class="class="container-fluid p-0 class-vh-100">
       <div class="row g-0 fila-pantalla">
             <div class="col-2 border d-flex align-items-center justify-content-center">

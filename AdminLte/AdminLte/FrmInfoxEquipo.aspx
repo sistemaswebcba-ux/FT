@@ -8,7 +8,7 @@
   <div class="container-fluid">
     <div class="card">
       <div class="d-flex align-items-center gap-3 mb-3">
-        <asp:Image ID="ImgEquipo" runat="server" CssClass="rounded me-2" />
+        <asp:Image ID="ImgEquipo" runat="server" CssClass="rounded ms-3 me-2" />
         <asp:Label ID="lblEquipo" runat="server" Font-Bold="True"></asp:Label>
       </div>
       <div class="card-header">

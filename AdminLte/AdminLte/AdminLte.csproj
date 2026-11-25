@@ -207,6 +207,7 @@
     <Content Include="FrmEquipos.aspx" />
     <Content Include="FrmFechas.aspx" />
     <Content Include="FrmFechasaspx.aspx" />
+    <Content Include="FrmFixture.aspx" />
     <Content Include="FrmInfo.aspx" />
     <Content Include="FrmInfoxEquipo.aspx" />
     <Content Include="FrmLocalVisitante.aspx" />
@@ -218,10 +219,14 @@
     <Content Include="Imagen\Acassuso.jpg" />
     <Content Include="Imagen\afa.jpg" />
     <Content Include="Imagen\Agropecuario.jpg" />
+    <Content Include="Imagen\Agropecuario.png" />
     <Content Include="Imagen\Aldosivi.jpg" />
     <Content Include="Imagen\Aldosivi.png" />
     <Content Include="Imagen\AllBoys.jpg" />
+    <Content Include="Imagen\AllBoys.png" />
     <Content Include="Imagen\Almagro.jpg" />
+    <Content Include="Imagen\Almagro.png" />
+    <Content Include="Imagen\AlmiranteBrown.png" />
     <Content Include="Imagen\Alumni.jpg" />
     <Content Include="Imagen\Alvarado.jpg" />
     <Content Include="Imagen\Antoniana.jpg" />
@@ -232,6 +237,7 @@
     <Content Include="Imagen\Armenio.jpg" />
     <Content Include="Imagen\Arsenal.jpg" />
     <Content Include="Imagen\Atlanta.jpg" />
+    <Content Include="Imagen\Atlanta.png" />
     <Content Include="Imagen\Atletico.png" />
     <Content Include="Imagen\AtleticoParana.jpg" />
     <Content Include="Imagen\AtleticoRafaela.jpg" />
@@ -260,12 +266,19 @@
     <Content Include="Imagen\CentralCordoba.png" />
     <Content Include="Imagen\CentralCordobaRosario.jpg" />
     <Content Include="Imagen\CentralNorte.jpg" />
+    <Content Include="Imagen\CentralNorte.png" />
     <Content Include="Imagen\Chacarita.jpg" />
+    <Content Include="Imagen\Chacarita.png" />
+    <Content Include="Imagen\Chaco.png" />
+    <Content Include="Imagen\Chicago.png" />
     <Content Include="Imagen\Chile.jpg" />
+    <Content Include="Imagen\Cipoleti.png" />
     <Content Include="Imagen\Cipolletti.JPG" />
     <Content Include="Imagen\Colegiales.jpg" />
+    <Content Include="Imagen\Colegiales.png" />
     <Content Include="Imagen\Colombia.jpg" />
     <Content Include="Imagen\Colon.jpg" />
+    <Content Include="Imagen\Colon.png" />
     <Content Include="Imagen\Comunicaciones.jpg" />
     <Content Include="Imagen\Crucero.jpg" />
     <Content Include="Imagen\Defensa.jpg" />
@@ -279,10 +292,13 @@
     <Content Include="Imagen\Estudiantes.jpg" />
     <Content Include="Imagen\Estudiantes.png" />
     <Content Include="Imagen\Estudiantesba.jpg" />
+    <Content Include="Imagen\EstudiantesCaseros.png" />
     <Content Include="Imagen\EstudiantesRio4.jpg" />
     <Content Include="Imagen\EstudiantesRio4.png" />
     <Content Include="Imagen\EstudiantesSanLuis.jpg" />
+    <Content Include="Imagen\Excursionista.png" />
     <Content Include="Imagen\Ferro.jpg" />
+    <Content Include="Imagen\Ferro.png" />
     <Content Include="Imagen\Flandria.jpg" />
     <Content Include="Imagen\flecha.jpg" />
     <Content Include="Imagen\flecha1.gif" />
@@ -292,12 +308,15 @@
     <Content Include="Imagen\Gimnasia.png" />
     <Content Include="Imagen\Gimnasiacu.jpg" />
     <Content Include="Imagen\GimnasiaJujuy.jpg" />
+    <Content Include="Imagen\GimnasiaJujuy.png" />
     <Content Include="Imagen\GimnasiaLaPlata.jpg" />
     <Content Include="Imagen\GimnasiaMendoza.jpg" />
     <Content Include="Imagen\GimnasiaMza.png" />
     <Content Include="Imagen\GimnasiayTiro.jpg" />
+    <Content Include="Imagen\Godoy.png" />
     <Content Include="Imagen\GodoyCruz.jpg" />
     <Content Include="Imagen\Guarani.jpg" />
+    <Content Include="Imagen\Guemes.png" />
     <Content Include="Imagen\GuillermoBrown.jpg" />
     <Content Include="Imagen\Huracan.jpg" />
     <Content Include="Imagen\Huracan.png" />
@@ -318,13 +337,17 @@
     <Content Include="Imagen\Libertad.jpg" />
     <Content Include="Imagen\logonacionalb.JPG" />
     <Content Include="Imagen\LosAndes.jpg" />
+    <Content Include="Imagen\Madryn.png" />
     <Content Include="Imagen\Maipu.jpg" />
     <Content Include="Imagen\Merlo.jpg" />
+    <Content Include="Imagen\Mitre.png" />
     <Content Include="Imagen\Moron.jpg" />
+    <Content Include="Imagen\Moron.png" />
     <Content Include="Imagen\Newell.png" />
     <Content Include="Imagen\Newells.jpg" />
     <Content Include="Imagen\NuevaChicago.jpg" />
     <Content Include="Imagen\Olimpo.jpg" />
+    <Content Include="Imagen\Olimpo.png" />
     <Content Include="Imagen\Paraguay.jpg" />
     <Content Include="Imagen\Patronato.jpg" />
     <Content Include="Imagen\pelota.jpg" />
@@ -346,19 +369,26 @@
     <Content Include="Imagen\SanJorge.jpg" />
     <Content Include="Imagen\SanLorenzo.jpg" />
     <Content Include="Imagen\SanLorenzo.png" />
+    <Content Include="Imagen\SanMartin.png" />
+    <Content Include="Imagen\SanMartinFormosa.png" />
     <Content Include="Imagen\SanMartinSj.jpg" />
+    <Content Include="Imagen\SanMartinSj.png" />
     <Content Include="Imagen\SanMartinTuc.jpg" />
+    <Content Include="Imagen\SanMiguel.png" />
     <Content Include="Imagen\Santamarina.jpg" />
     <Content Include="Imagen\SanTelmo.jpg" />
+    <Content Include="Imagen\SanTelmo.png" />
     <Content Include="Imagen\Sarmiento.jpg" />
     <Content Include="Imagen\Sarmiento.png" />
     <Content Include="Imagen\SportivoBelgrano.jpg" />
     <Content Include="Imagen\Talleres.jpg" />
     <Content Include="Imagen\Talleres.png" />
     <Content Include="Imagen\Temperley.jpg" />
+    <Content Include="Imagen\Temperley.png" />
     <Content Include="Imagen\Tigre.jpg" />
     <Content Include="Imagen\Tigre.png" />
     <Content Include="Imagen\TiroFederal.jpg" />
+    <Content Include="Imagen\Tristan.png" />
     <Content Include="Imagen\TristanSuarez.jpg" />
     <Content Include="Imagen\Union.jpg" />
     <Content Include="Imagen\Union.png" />
@@ -507,6 +537,13 @@
     </Compile>
     <Compile Include="FrmFechasaspx.aspx.designer.cs">
       <DependentUpon>FrmFechasaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFixture.aspx.cs">
+      <DependentUpon>FrmFixture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmFixture.aspx.designer.cs">
+      <DependentUpon>FrmFixture.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmInfo.aspx.cs">
       <DependentUpon>FrmInfo.aspx</DependentUpon>

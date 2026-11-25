@@ -113,7 +113,7 @@ Public Class Fixture
                     sql = sql + " and idlocal =" + v(i).ToString()
                     sql = sql + " and idvisitante =" + v(j).ToString()
                     sql = sql + " and IdTorneo =" + idtorneo.ToString()
-                    sql = sql + " and jugo =1"
+                    sql = sql + " and jugo =1 order by f.fecha "
                     t1 = SqlHelper.ExecuteDataset(cad, CommandType.Text, sql).Tables(0)
                     If t1.Rows.Count > 0 Then
                         For k = 0 To t.Rows.Count - 1
@@ -164,7 +164,7 @@ Public Class Fixture
                 
         Dim dv As DataView
         dv = t.DefaultView
-        dv.Sort = "fecha"
+        dv.Sort = "fecha desc"
         Return dv
     End Function
 

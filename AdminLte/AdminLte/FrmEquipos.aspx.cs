@@ -15,19 +15,115 @@ namespace AdminLte
     {
       if (!IsPostBack)
       {
-        int Categoria = Convert.ToInt32(Request.QueryString["Cat"].ToString());
-        CargarEquipos(Categoria);
+        int IdTorneo = Convert.ToInt32(Request.QueryString["Id"].ToString());
+        CargarEquipos(IdTorneo);
+        CargarNombreTorneo(IdTorneo);
       }
 
     }
 
-    private void CargarEquipos(Int32 Categoria)
+    private void CargarNombreTorneo(int IdTorneo)
+    {
+      Torneo obj = new Torneo();
+      DataTable trdo = obj.TorneoGetbyId(IdTorneo);
+      String Nombre = "";
+      string Categoria = "";
+      string NombreTorneo = "";
+      if (trdo.Rows.Count > 0)
+      {
+        Nombre = trdo.Rows[0]["Torneo"].ToString();
+        Categoria = trdo.Rows[0]["Temporada"].ToString();
+        NombreTorneo = Nombre + " " + Categoria;
+      }
+      lblTorno.Text = NombreTorneo;
+    }
+
+    private void CargarEquipos(Int32 IdTorneo)
     {
       Equipo eq = new Equipo();
-      DataTable t = eq.EquiposGetbyCategoria(Categoria);
+      DataTable t = eq.EquiposGetbyEquiposxTorneo(IdTorneo);
       int Cantidad = t.Rows.Count;
       switch (Cantidad)
       {
+        case 15:
+          Img1.ImageUrl = "~/Imagen/" + t.Rows[0]["Foto"].ToString();
+          Img1.CommandArgument = t.Rows[0]["IdEquipo"].ToString();
+          Img1.ToolTip = t.Rows[0]["Equipo"].ToString();
+
+          Img2.ImageUrl = "~/Imagen/" + t.Rows[1]["Foto"].ToString();
+          Img2.CommandArgument = t.Rows[1]["IdEquipo"].ToString();
+          Img2.ToolTip = t.Rows[1]["Equipo"].ToString();
+
+          Img3.ImageUrl = "~/Imagen/" + t.Rows[2]["Foto"].ToString();
+          Img3.CommandArgument = t.Rows[2]["IdEquipo"].ToString();
+          Img3.ToolTip = t.Rows[2]["Equipo"].ToString();
+
+          Img4.ImageUrl = "~/Imagen/" + t.Rows[3]["Foto"].ToString();
+          Img4.CommandArgument = t.Rows[3]["IdEquipo"].ToString();
+          Img4.ToolTip = t.Rows[3]["Equipo"].ToString();
+
+          Img5.ImageUrl = "~/Imagen/" + t.Rows[4]["Foto"].ToString();
+          Img5.CommandArgument = t.Rows[4]["IdEquipo"].ToString();
+          Img5.ToolTip = t.Rows[4]["Equipo"].ToString();
+
+          Img6.ImageUrl = "~/Imagen/" + t.Rows[5]["Foto"].ToString();
+          Img6.CommandArgument = t.Rows[5]["IdEquipo"].ToString();
+          Img6.ToolTip = t.Rows[5]["Equipo"].ToString();
+
+          Img7.ImageUrl = "~/Imagen/" + t.Rows[6]["Foto"].ToString();
+          Img7.CommandArgument = t.Rows[6]["IdEquipo"].ToString();
+          Img7.ToolTip = t.Rows[6]["Equipo"].ToString();
+
+          Img8.ImageUrl = "~/Imagen/" + t.Rows[7]["Foto"].ToString();
+          Img8.CommandArgument = t.Rows[7]["IdEquipo"].ToString();
+          Img8.ToolTip = t.Rows[7]["Equipo"].ToString();
+
+          Img9.ImageUrl = "~/Imagen/" + t.Rows[8]["Foto"].ToString();
+          Img9.CommandArgument = t.Rows[8]["IdEquipo"].ToString();
+          Img9.ToolTip = t.Rows[8]["Equipo"].ToString();
+
+          Img10.ImageUrl = "~/Imagen/" + t.Rows[9]["Foto"].ToString();
+          Img10.CommandArgument = t.Rows[9]["IdEquipo"].ToString();
+          Img10.ToolTip = t.Rows[9]["Equipo"].ToString();
+
+          Img11.ImageUrl = "~/Imagen/" + t.Rows[10]["Foto"].ToString();
+          Img11.CommandArgument = t.Rows[10]["IdEquipo"].ToString();
+          Img11.ToolTip = t.Rows[10]["Equipo"].ToString();
+
+          Img12.ImageUrl = "~/Imagen/" + t.Rows[11]["Foto"].ToString();
+          Img12.CommandArgument = t.Rows[11]["IdEquipo"].ToString();
+          Img12.ToolTip = t.Rows[11]["Equipo"].ToString();
+
+          Img13.ImageUrl = "~/Imagen/" + t.Rows[12]["Foto"].ToString();
+          Img13.CommandArgument = t.Rows[12]["IdEquipo"].ToString();
+          Img13.ToolTip = t.Rows[12]["Equipo"].ToString();
+
+          Img14.ImageUrl = "~/Imagen/" + t.Rows[13]["Foto"].ToString();
+          Img14.CommandArgument = t.Rows[13]["IdEquipo"].ToString();
+          Img14.ToolTip = t.Rows[13]["Equipo"].ToString();
+
+          Img15.ImageUrl = "~/Imagen/" + t.Rows[14]["Foto"].ToString();
+          Img15.CommandArgument = t.Rows[14]["IdEquipo"].ToString();
+          Img15.ToolTip = t.Rows[14]["Equipo"].ToString();
+
+          Img16.Visible = false;
+          Img17.Visible = false;
+          Img18.Visible = false;
+          Img19.Visible = false;
+          Img20.Visible = false;
+          Img21.Visible = false;
+          Img22.Visible = false;
+          Img23.Visible = false;
+          Img24.Visible = false;
+          Img25.Visible = false;
+          Img26.Visible = false;
+          Img27.Visible = false;
+          Img28.Visible = false;
+          Img29.Visible = false;
+          Img29.Visible = false;
+          Img30.Visible = false;
+
+          break;
         case 30:
           Img1.ImageUrl = "~/Imagen/" + t.Rows[0]["Foto"].ToString();
           Img1.CommandArgument = t.Rows[0]["IdEquipo"].ToString();
@@ -146,11 +242,8 @@ namespace AdminLte
           Img29.ToolTip = t.Rows[28]["Equipo"].ToString();
 
           Img30.ImageUrl = "~/Imagen/" + t.Rows[29]["Foto"].ToString();
-          Img24.CommandArgument = t.Rows[29]["IdEquipo"].ToString();
-          Img24.ToolTip = t.Rows[29]["Equipo"].ToString();
-
-
-
+          Img30.CommandArgument = t.Rows[29]["IdEquipo"].ToString();
+          Img30.ToolTip = t.Rows[29]["Equipo"].ToString();
           break;
       }
     }
