@@ -13,9 +13,10 @@ namespace AdminLte
   {
     protected void Page_Load(object sender, EventArgs e)
     {
-      
 
-      Response.Redirect("Inicio.aspx?Id=2");
+      string Url = "FrmFixture.aspx?IdTorneo=2";
+      Response.Redirect(Url);
+      //Response.Redirect("Inicio.aspx?Id=2");
     }
   }
 }

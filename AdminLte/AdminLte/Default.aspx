@@ -1,4 +1,4 @@
-frmequipofa<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="AdminLte.Default" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="AdminLte.Default" %>
 
 <!DOCTYPE html>
 

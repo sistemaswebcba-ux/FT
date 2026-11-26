@@ -3,16 +3,31 @@
   "WorkspaceRootPath": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD2AFEDC-1283-4354-9331-CE465AAC44FF}|..\\TablaDLL\\TablaDLL\\TablaDLL.vbproj|d:\\programacion 3\\ft\\ft\\tabladll\\tabladll\\conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|d:\\programacion 3\\ft\\ft\\adminlte\\adminlte\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\adminlte\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\adminlte\\inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|d:\\programacion 3\\ft\\ft\\adminlte\\adminlte\\frmfixture.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\frmfixture.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\adminlte\\frmfixture.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\frmfixture.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\adminlte\\frmequipos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\frmequipos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\adminlte\\frmfixture.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\frmfixture.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\adminlte\\frminfoxequipo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -36,9 +51,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\adminlte\\frmtabla.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\frmtabla.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD2AFEDC-1283-4354-9331-CE465AAC44FF}|..\\TablaDLL\\TablaDLL\\TablaDLL.vbproj|d:\\programacion 3\\ft\\ft\\tabladll\\tabladll\\conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\adminlte\\frmfechas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -105,10 +117,6 @@
       "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\frmtablaanual.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\adminlte\\inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\adminlte\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -117,11 +125,7 @@
       "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\estilo\\estilo2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\adminlte\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|d:\\programacion 3\\ft\\ft\\adminlte\\adminlte\\dist\\css\\adminlte.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\adminlte\\dist\\css\\adminlte.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{D3647D34-704D-4882-9C1F-89D967BF6CB4}|AdminLte\\AdminLte.csproj|solutionrelative:adminlte\\dist\\css\\adminlte.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -132,17 +136,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\Default.aspx",
+              "RelativeDocumentMoniker": "AdminLte\\Default.aspx",
+              "ToolTip": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\Default.aspx",
+              "RelativeToolTip": "AdminLte\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-11-26T22:13:16.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FrmFixture.aspx.cs",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmFixture.aspx.cs",
               "RelativeDocumentMoniker": "AdminLte\\FrmFixture.aspx.cs",
               "ToolTip": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmFixture.aspx.cs",
               "RelativeToolTip": "AdminLte\\FrmFixture.aspx.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-25T20:07:50.234Z",
               "EditorCaption": ""
@@ -150,6 +167,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "AdminLte\\Default.aspx.cs",
+              "ToolTip": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\Default.aspx.cs",
+              "RelativeToolTip": "AdminLte\\Default.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T03:53:45.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Conexion.vb",
+              "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\TablaDLL\\TablaDLL\\Conexion.vb",
+              "RelativeDocumentMoniker": "..\\TablaDLL\\TablaDLL\\Conexion.vb",
+              "ToolTip": "D:\\PROGRAMACION 3\\FT\\FT\\TablaDLL\\TablaDLL\\Conexion.vb",
+              "RelativeToolTip": "..\\TablaDLL\\TablaDLL\\Conexion.vb",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-01T20:16:52.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FrmEquipos.aspx",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmEquipos.aspx",
               "RelativeDocumentMoniker": "AdminLte\\FrmEquipos.aspx",
@@ -163,6 +206,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Inicio.aspx.cs",
+              "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\Inicio.aspx.cs",
+              "RelativeDocumentMoniker": "AdminLte\\Inicio.aspx.cs",
+              "ToolTip": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\Inicio.aspx.cs",
+              "RelativeToolTip": "AdminLte\\Inicio.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T03:54:06.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmFixture.aspx",
+              "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmFixture.aspx",
+              "RelativeDocumentMoniker": "AdminLte\\FrmFixture.aspx",
+              "ToolTip": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmFixture.aspx",
+              "RelativeToolTip": "AdminLte\\FrmFixture.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-11-25T01:20:17.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FrmInfoxEquipo.aspx",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmInfoxEquipo.aspx",
               "RelativeDocumentMoniker": "AdminLte\\FrmInfoxEquipo.aspx",
@@ -175,32 +244,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmFixture.aspx",
-              "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmFixture.aspx",
-              "RelativeDocumentMoniker": "AdminLte\\FrmFixture.aspx",
-              "ToolTip": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmFixture.aspx",
-              "RelativeToolTip": "AdminLte\\FrmFixture.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-11-25T01:20:17.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "adminlte.css",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\dist\\css\\adminlte.css",
               "RelativeDocumentMoniker": "AdminLte\\dist\\css\\adminlte.css",
               "ToolTip": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\dist\\css\\adminlte.css",
               "RelativeToolTip": "AdminLte\\dist\\css\\adminlte.css",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-11-25T20:07:07.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-25T20:07:07.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Fixture.vb",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\TablaDLL\\TablaDLL\\Fixture.vb",
               "RelativeDocumentMoniker": "..\\TablaDLL\\TablaDLL\\Fixture.vb",
@@ -213,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Master2.master",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\dist\\forms\\Master2.master",
               "RelativeDocumentMoniker": "AdminLte\\dist\\forms\\Master2.master",
@@ -226,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Master2.master.cs",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\dist\\forms\\Master2.master.cs",
               "RelativeDocumentMoniker": "AdminLte\\dist\\forms\\Master2.master.cs",
@@ -239,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "FrmSubTorneo.aspx.cs",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmSubTorneo.aspx.cs",
               "RelativeDocumentMoniker": "AdminLte\\FrmSubTorneo.aspx.cs",
@@ -252,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "FrmTabla.aspx.cs",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmTabla.aspx.cs",
               "RelativeDocumentMoniker": "AdminLte\\FrmTabla.aspx.cs",
@@ -265,20 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Conexion.vb",
-              "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\TablaDLL\\TablaDLL\\Conexion.vb",
-              "RelativeDocumentMoniker": "..\\TablaDLL\\TablaDLL\\Conexion.vb",
-              "ToolTip": "D:\\PROGRAMACION 3\\FT\\FT\\TablaDLL\\TablaDLL\\Conexion.vb",
-              "RelativeToolTip": "..\\TablaDLL\\TablaDLL\\Conexion.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-10-01T20:16:52.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "FrmFechas.aspx",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmFechas.aspx",
               "RelativeDocumentMoniker": "AdminLte\\FrmFechas.aspx",
@@ -291,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "FrmSubTorneo.aspx",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmSubTorneo.aspx",
               "RelativeDocumentMoniker": "AdminLte\\FrmSubTorneo.aspx",
@@ -304,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "FrmInfoxEquipo.aspx.cs",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmInfoxEquipo.aspx.cs",
               "RelativeDocumentMoniker": "AdminLte\\FrmInfoxEquipo.aspx.cs",
@@ -317,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Tabla.vb",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\TablaDLL\\TablaDLL\\Tabla.vb",
               "RelativeDocumentMoniker": "..\\TablaDLL\\TablaDLL\\Tabla.vb",
@@ -330,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "FrmInfo.aspx.cs",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmInfo.aspx.cs",
               "RelativeDocumentMoniker": "AdminLte\\FrmInfo.aspx.cs",
@@ -343,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "FrmInfo.aspx",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmInfo.aspx",
               "RelativeDocumentMoniker": "AdminLte\\FrmInfo.aspx",
@@ -356,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Resumen.vb",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\TablaDLL\\TablaDLL\\Resumen.vb",
               "RelativeDocumentMoniker": "..\\TablaDLL\\TablaDLL\\Resumen.vb",
@@ -369,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Torneo.vb",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\TablaDLL\\TablaDLL\\Torneo.vb",
               "RelativeDocumentMoniker": "..\\TablaDLL\\TablaDLL\\Torneo.vb",
@@ -382,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Maestra.Master",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\dist\\forms\\Maestra.Master",
               "RelativeDocumentMoniker": "AdminLte\\dist\\forms\\Maestra.Master",
@@ -395,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "FrmPrueba.aspx.cs",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmPrueba.aspx.cs",
               "RelativeDocumentMoniker": "AdminLte\\FrmPrueba.aspx.cs",
@@ -408,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "FrmLocalVisitante.aspx.cs",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmLocalVisitante.aspx.cs",
               "RelativeDocumentMoniker": "AdminLte\\FrmLocalVisitante.aspx.cs",
@@ -421,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "FrmPrueba.aspx",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmPrueba.aspx",
               "RelativeDocumentMoniker": "AdminLte\\FrmPrueba.aspx",
@@ -434,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "FrmFechas.aspx.cs",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmFechas.aspx.cs",
               "RelativeDocumentMoniker": "AdminLte\\FrmFechas.aspx.cs",
@@ -447,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "FrmFechasaspx.aspx.cs",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmFechasaspx.aspx.cs",
               "RelativeDocumentMoniker": "AdminLte\\FrmFechasaspx.aspx.cs",
@@ -460,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "FrmLocalVisitante.aspx",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmLocalVisitante.aspx",
               "RelativeDocumentMoniker": "AdminLte\\FrmLocalVisitante.aspx",
@@ -473,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "Tantos.vb",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\TablaDLL\\TablaDLL\\Tantos.vb",
               "RelativeDocumentMoniker": "..\\TablaDLL\\TablaDLL\\Tantos.vb",
@@ -486,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "FrmTablaAnual.aspx.cs",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\FrmTablaAnual.aspx.cs",
               "RelativeDocumentMoniker": "AdminLte\\FrmTablaAnual.aspx.cs",
@@ -499,20 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Inicio.aspx.cs",
-              "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\Inicio.aspx.cs",
-              "RelativeDocumentMoniker": "AdminLte\\Inicio.aspx.cs",
-              "ToolTip": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\Inicio.aspx.cs",
-              "RelativeToolTip": "AdminLte\\Inicio.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T03:54:06.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Estilo2.css",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\Estilo\\Estilo2.css",
               "RelativeDocumentMoniker": "AdminLte\\Estilo\\Estilo2.css",
@@ -524,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Inicio.aspx",
               "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\Inicio.aspx",
               "RelativeDocumentMoniker": "AdminLte\\Inicio.aspx",
@@ -533,19 +562,6 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-11-07T21:51:05.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "AdminLte\\Default.aspx.cs",
-              "ToolTip": "D:\\PROGRAMACION 3\\FT\\FT\\AdminLte\\AdminLte\\Default.aspx.cs",
-              "RelativeToolTip": "AdminLte\\Default.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T03:53:45.519Z",
               "EditorCaption": ""
             }
           ]
