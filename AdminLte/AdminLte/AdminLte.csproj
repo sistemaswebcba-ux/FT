@@ -211,6 +211,7 @@
     <Content Include="FrmInfo.aspx" />
     <Content Include="FrmInfoxEquipo.aspx" />
     <Content Include="FrmLocalVisitante.aspx" />
+    <Content Include="FrmPartido.aspx" />
     <Content Include="FrmPrueba.aspx" />
     <Content Include="FrmSubTorneo.aspx" />
     <Content Include="FrmTabla.aspx" />
@@ -567,6 +568,13 @@
     </Compile>
     <Compile Include="FrmLocalVisitante.aspx.designer.cs">
       <DependentUpon>FrmLocalVisitante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPartido.aspx.cs">
+      <DependentUpon>FrmPartido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmPartido.aspx.designer.cs">
+      <DependentUpon>FrmPartido.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmPrueba.aspx.cs">
       <DependentUpon>FrmPrueba.aspx</DependentUpon>
