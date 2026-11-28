@@ -44,9 +44,10 @@
                                     B Nacional Zona A
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Tabla Anual</a></li>
-                                    <li><a class="dropdown-item" href="#">Local</a></li>
-                                    <li><a class="dropdown-item" href="#">Visitante</a></li>
+                                    <li><a class="dropdown-item" href="FrmTabla.aspx?Id=6&t=a">Tabla Anual</a></li>
+                                    <li><a class="dropdown-item" href="FrmTabla.aspx?Id=2&t=l">Local</a></li>
+                                    <li><a class="dropdown-item" href="FrmTabla.aspx?Id=2&t=v">Visitante</a></li>
+                                    <li><a class="dropdown-item" href="FrmEquipos.aspx?Id=6&Temp=2026">Equipos</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">

@@ -45,6 +45,66 @@ namespace AdminLte
       int Cantidad = t.Rows.Count;
       switch (Cantidad)
       {
+        case 8:
+          Img1.ImageUrl = "~/Imagen/" + t.Rows[0]["Foto"].ToString();
+          Img1.CommandArgument = t.Rows[0]["IdEquipo"].ToString();
+          Img1.ToolTip = t.Rows[0]["Equipo"].ToString();
+
+          Img2.ImageUrl = "~/Imagen/" + t.Rows[1]["Foto"].ToString();
+          Img2.CommandArgument = t.Rows[1]["IdEquipo"].ToString();
+          Img2.ToolTip = t.Rows[1]["Equipo"].ToString();
+
+          Img3.ImageUrl = "~/Imagen/" + t.Rows[2]["Foto"].ToString();
+          Img3.CommandArgument = t.Rows[2]["IdEquipo"].ToString();
+          Img3.ToolTip = t.Rows[2]["Equipo"].ToString();
+
+          Img4.ImageUrl = "~/Imagen/" + t.Rows[3]["Foto"].ToString();
+          Img4.CommandArgument = t.Rows[3]["IdEquipo"].ToString();
+          Img4.ToolTip = t.Rows[3]["Equipo"].ToString();
+
+          Img5.ImageUrl = "~/Imagen/" + t.Rows[4]["Foto"].ToString();
+          Img5.CommandArgument = t.Rows[4]["IdEquipo"].ToString();
+          Img5.ToolTip = t.Rows[4]["Equipo"].ToString();
+
+          Img6.ImageUrl = "~/Imagen/" + t.Rows[5]["Foto"].ToString();
+          Img6.CommandArgument = t.Rows[5]["IdEquipo"].ToString();
+          Img6.ToolTip = t.Rows[5]["Equipo"].ToString();
+
+          Img7.ImageUrl = "~/Imagen/" + t.Rows[6]["Foto"].ToString();
+          Img7.CommandArgument = t.Rows[6]["IdEquipo"].ToString();
+          Img7.ToolTip = t.Rows[6]["Equipo"].ToString();
+
+          Img8.ImageUrl = "~/Imagen/" + t.Rows[7]["Foto"].ToString();
+          Img8.CommandArgument = t.Rows[7]["IdEquipo"].ToString();
+          Img8.ToolTip = t.Rows[7]["Equipo"].ToString();
+
+          Img9.Visible = false;
+          Img10.Visible = false;
+          Img11.Visible = false;
+          Img12.Visible = false;
+          Img13.Visible = false;
+          Img14.Visible = false;
+          Img15.Visible = false;
+          Img16.Visible = false;
+          Img17.Visible = false;
+          Img17.Visible = false;
+          Img16.Visible = false;
+          Img17.Visible = false;
+          Img18.Visible = false;
+          Img19.Visible = false;
+          Img20.Visible = false;
+          Img21.Visible = false;
+          Img22.Visible = false;
+          Img23.Visible = false;
+          Img24.Visible = false;
+          Img25.Visible = false;
+          Img26.Visible = false;
+          Img27.Visible = false;
+          Img28.Visible = false;
+          Img29.Visible = false;
+          Img29.Visible = false;
+          Img30.Visible = false;
+          break;
         case 15:
           Img1.ImageUrl = "~/Imagen/" + t.Rows[0]["Foto"].ToString();
           Img1.CommandArgument = t.Rows[0]["IdEquipo"].ToString();
